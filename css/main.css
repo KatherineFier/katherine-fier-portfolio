@@ -183,17 +183,19 @@ nav ul li a {
 
 	font-family: 'Helvetica', sans-serif;
 
-	font-size: 17px;
+	font-size: 15px;
 
 	color: #ffffff;
 
-	font-weight: 400;
+	font-weight: 550;
 
 	text-transform: uppercase;
 
 	text-decoration: none;
 
 	padding-left: 30px;
+
+	letter-spacing: 2px; 
 
 }
 
@@ -353,9 +355,9 @@ header h1 {
 
 	line-height: 40px;
 
-	padding-left: 250px;
+	padding-left: 300px;
 
-	padding-right: 250px;
+	padding-right: 300px;
 
 	padding-top: 70px;
 
@@ -368,10 +370,6 @@ header h1 {
 	border: 0px;
 
 }
-
-
-
-
 
 
 
