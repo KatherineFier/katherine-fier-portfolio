@@ -2,31 +2,20 @@
 
 
 .full-width {
-
     width: 1200px;
-
     margin: 0 auto;
-
 }
 
 
 .half-width {
-
     width: 600px;
-
     float: left;
-
 }
 
 
-
 .third-width {
-
     width: 400px;
-
     float: left;
-
-
 }
 
 
@@ -34,285 +23,147 @@
 /****** BASE STYLES ******/
 
 p {
-
 	font-family: 'Raleway', sans-serif;
-
 	}
-
-
 
 h1 {
-
 	font-family: 'Adamina', serif;
-
 	font-size: 50px;
-
 	color: #ffffff;
-
-
 	}
-
-
 
 
 h2 {
-
 	font-family: 'Helvetica', sans-serif;
-
 	font-size: 40px;
-
 	font-weight: 300;
-
-
 	}
 
 
-
-
 h3 {
-
-
 	font-family: 'Adamina', serif;
-
 	font-size: 19px;
-
 	color: #424280;
-
 }
 
 
-
-
 h4 { 
-
-
 	font-family: 'Adamina', serif;
-
 	font-size: 25px;
-
 	color: #ffffff;
-
-
 }
 
 
 
 h6 { 
-
-
 	font-family: 'Raleway', sans-serif;
-
 	font-size: 13px;
-
 	color: #ffffff;
-
-
 }
-
-
-
-
-
 
 
 /****** HEADER ******/
 
-
-
 header { 
-
-
 	height: 750px;
-	
 	background: url('../img/header-background-image.png');
-
 	background-size: cover;
-
-	
-
 }
-
-
 
 
 header h2 {
-
 	color: #424280;
-
 	padding-left: 0px;
-
 	padding-right: 0px;
-
 	margin-left: 0px;
-
 	margin-right: 0px;
-
 	float: left;
-
-
 }
-
-
 
 
 nav { 
-
 	float: left; 
-
 	padding-top: 25px;
-
 	padding-right: 0px;
-
 	padding-left: 100px;
-
-
-
 }
 
 
-
 nav ul li { 
-
 	display: inline-block;
-
 }
 
 
 nav ul li a {
-
-
 	font-family: 'Helvetica', sans-serif;
-
 	font-size: 15px;
-
 	color: #ffffff;
-
 	font-weight: 550;
-
 	text-transform: uppercase;
-
 	text-decoration: none;
-
 	padding-left: 30px;
-
 	letter-spacing: 2px; 
-
 }
-
-
-
-
 
 
 header h1 { 
-
 	clear: both;
-
 	margin-left: 50px;
-
 	width: 650px;
-
 	margin-right: 200px;
-
 	padding-top: 100px;
-
 	letter-spacing: 5px;
-
 	line-height: 75px;
-
-
 }
-
 
 
 /****** PORTFOLIO ******/
 
 #portfolio {
-
 	background-color: #efefef;
-
 	height: 1100px;
-
 }
 
 
 #portfolio .full-width {
-
 	background-color: #efefef;
-
 	padding-top: 100px;
-
 	padding-bottom: 80px;
-
 	padding-left: 100px;
-
 	padding-right: 100px;
-
-
 }
 
 
 #portfolio h2 {
-
-
 	color: #424144;
-
 	padding-left: 525px;
-
 	padding-bottom: 100px;
-
 	margin-top: 0px;
-
-
-
-	
-
-	
-
 }
-
-
 
 
 #portfolio p { 
-
 	color: #424144;
-
 	font-size: 17px;
-
 	width: 413px;
-
 }
 
 
-
 .portfolio-top {
-
 	padding-left: 100px;
-
 	padding-bottom: 50px;
-
-
 }
 
 
 
 .portfolio-bottom {
-
 	padding-left: 100px;
-
 	padding-bottom: 100px;
-
-
 }
 
 
 .jubilee-austen {
-
-
 	padding-bottom: 45px;
-
-
 }
 
 
@@ -322,352 +173,182 @@ header h1 {
 
 
 #praise {
-
 	background-color: #ffffff;
-
 	height: 425px;
 }
 
 
-
-
 #praise h2 {
-
 	color: #424280;
-
 	padding-left: 525px;
-
 	margin-top: 100px;
 
-	
-
-
-
 }
-
 
 
 #praise p { 
-
 	color: #424280;
-
 	font-size: 25px;
-
 	line-height: 40px;
-
 	padding-left: 300px;
-
 	padding-right: 300px;
-
 	padding-top: 70px;
-
 	padding-bottom: 100px;
-
 	margin-left: 0px;
-
 	margin-right: 0px;
-
 	border: 0px;
-
 }
-
-
-
 
 
 /****** ABOUT ******/
 
 
 
-
 #about {
-
 	background-color: #8C8CAB;
-
-
 	height: 900px;
-
 }
-
 
 
 #about h2 {
-
 	color: #ffffff;
-
 	padding-left: 525px;
-
 	padding-top: 100px;
-
 	padding-bottom: 100px;
-
-
-
 }
 
 
-
 #about p { 
-
 	color: #ffffff;
-
 	font-size: 25px;
-
 	line-height: 40px;
-
 	font-weight: 200;
-
 	padding-right: 110px;
-
 	margin-left:-60px;
-
 }
 
 
 
 #about ul{ 
-
-	
 	padding-left: 50px;
-
 	padding-top: 20px;
-
 	list-style: none;
-
 }
 
 
 
 #about ul li { 
-
 	color: #ffffff;
-
 	font-size: 25px;
-
 	line-height: 40px;
-
 	font-weight: 200;
-
 	padding-left: 10px;
-
 	padding-bottom: 60px;
-
 }
-
 
 
 .bold {
-
 	font-weight: 700;
-
 	color: #D5BFED;
-
-
-
 }
-
-
-
-
-
 
 
 /****** FOOTER******/
 
 
-
-
 footer{
-
-
 	background-color: #424280;
-
 	height: 700px;
-
-
-
 }
 
 
 footer .full-width {
-
 	padding: 5px 0px 0px;
-
 
 }
 
 
-
-
-
 footer h2 {
-
-
 	color: #ffffff;
-
 	padding-left: 460px;
-
 	padding-top: 100px;
-
 	padding-bottom: 50px
-
-	
-
-
 }
 
 
 footer h4 {
-
-
 	color: #ffffff;
-
-	
-
 }
-
 
 
 
 footer p { 
-
 	color: #ffffff;
-
 	font-size: 17px;
-
 }
-
-
 
 
 
  .hire-me { 
-
-
  	padding-left: 75px;
-
  	padding-bottom: 25px;
-
-	
-
  }
 
 
  .phone {
-
  	padding-left: 75px;
-
  	padding-bottom: 0px;
-
-
-
  }
-
 
 
  .email {
-
  	padding-left: 25px;
-
  	padding-bottom: 0px;
 
-
-
  }
-
-
-
-
-
 
 
  .follow-me { 
-
-
  	padding-left: 125px;
-
  	padding-bottom: 35px;
-
-
-
  }
-
-
 
 
  .social-media {
-
-
  	padding-left: 50px;
-
-
-
  }
 
 
-
  .social-media ul li{ 
-
-
 	display: inline-block;
 	padding-left: 20px;
 
-
-
-
 }
-
-
-
-
 
 
 .copyright {
-
-
 	padding-top: 100px;
-
 	padding-left: 100px;
-
-
 }
-
-
-
-
 
  
  .meet-me { 
-
  	padding-left: 175px;
-
  	padding-bottom: 25px;
-
-
 
  }
 
 
  .town {
 
-
 	padding-left: 185px;
-
 
  }
 
 
  .meet-up-cta {
-
  	padding-left: 120px;
 
-
-
  }
-
-
-
-
-
 
 
