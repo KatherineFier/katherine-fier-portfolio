@@ -1,30 +1,38 @@
-/****** GRID ******/
+/****** GENERAL STYLES ******/
 
 
-.full-width {
-    width: 1200px;
-    margin: 0 auto;
+.html {
+    font-size:  17px;
 }
 
 
-.half-width {
-    width: 600px;
-    float: left;
+body {
+    font-size:  1em;
+    font-family: 'Raleway', sans-serif;
+    color: #424144;
+    text-align: left;
 }
 
 
-.third-width {
-    width: 400px;
-    float: left;
+ul,ol{
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
 }
 
 
+a {
+	color: #d5bfed;
+	font-weight: 300;
+	text-decoration: none;
+}
 
-/****** BASE STYLES ******/
 
 p {
-	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	line-height: 1.285;
 	}
+
 
 h1 {
 	font-family: 'Adamina', serif;
@@ -35,30 +43,42 @@ h1 {
 
 h2 {
 	font-family: 'Helvetica', sans-serif;
-	font-size: 40px;
 	font-weight: 300;
+	font-size: 40px;
+	margin:  0;
 	}
 
 
 h3 {
 	font-family: 'Adamina', serif;
+	font-weight: ;
 	font-size: 19px;
 	color: #424280;
+	margin:  0;
 }
 
 
 h4 { 
 	font-family: 'Adamina', serif;
+	font-weight: ;
 	font-size: 25px;
 	color: #ffffff;
+	margin: 0;
 }
 
 
 
 h6 { 
 	font-family: 'Raleway', sans-serif;
+	font-weight:  ;
 	font-size: 13px;
 	color: #ffffff;
+	margin:  0;
+}
+
+.content-wrapper{
+	width:  90%;
+	margin:  50px 0;
 }
 
 
@@ -125,7 +145,7 @@ header h1 {
 }
 
 
-#portfolio .full-width {
+.portfolio .full-width {
 	background-color: #efefef;
 	padding-top: 100px;
 	padding-bottom: 80px;
@@ -134,7 +154,7 @@ header h1 {
 }
 
 
-#portfolio h2 {
+.portfolio h2 {
 	color: #424144;
 	padding-left: 525px;
 	padding-bottom: 100px;
@@ -142,7 +162,7 @@ header h1 {
 }
 
 
-#portfolio p { 
+.portfolio p { 
 	color: #424144;
 	font-size: 17px;
 	width: 413px;
@@ -172,13 +192,13 @@ header h1 {
 
 
 
-#praise {
+.praise {
 	background-color: #ffffff;
 	height: 425px;
 }
 
 
-#praise h2 {
+.praise h2 {
 	color: #424280;
 	padding-left: 525px;
 	margin-top: 100px;
@@ -186,7 +206,7 @@ header h1 {
 }
 
 
-#praise p { 
+.praise p { 
 	color: #424280;
 	font-size: 25px;
 	line-height: 40px;
@@ -204,13 +224,13 @@ header h1 {
 
 
 
-#about {
+.about {
 	background-color: #8C8CAB;
 	height: 900px;
 }
 
 
-#about h2 {
+.about h2 {
 	color: #ffffff;
 	padding-left: 525px;
 	padding-top: 100px;
@@ -218,7 +238,7 @@ header h1 {
 }
 
 
-#about p { 
+.about p { 
 	color: #ffffff;
 	font-size: 25px;
 	line-height: 40px;
@@ -229,7 +249,7 @@ header h1 {
 
 
 
-#about ul{ 
+.about ul{ 
 	padding-left: 50px;
 	padding-top: 20px;
 	list-style: none;
@@ -237,7 +257,7 @@ header h1 {
 
 
 
-#about ul li { 
+.about ul li { 
 	color: #ffffff;
 	font-size: 25px;
 	line-height: 40px;
