@@ -420,7 +420,7 @@ footer .copyright{
 #praise p { 
   color: #424280;
   font-size: 1.25em;
-  line-height: 40px;
+  line-height: 1.75em;
 }
 
 
@@ -492,7 +492,7 @@ footer .copyright{
 
 .content-wrapper{
   max-width:  700px;
-  margin:  100px 0;
+  margin: 50px 0;
 }
 
 header { 
@@ -527,7 +527,7 @@ nav ul li a {
   display: none;
 }
 
-/******************************** Hero area ************************************/
+/******************************** Tablet - Hero area ************************************/
 
 .hero-area {
   background: url('../img/header-background-image.png');
@@ -538,12 +538,126 @@ nav ul li a {
 .hero-area h1 { 
   font-size: 2.5em;
   line-height: 1.5em;
-  width:  70%;
+  width:  68%;
   margin-left: 10px;
   letter-spacing: 2px;
 }
 
-/******************************** Portfolio Section *******************************/
+/******************************** Tablet - Portfolio Section *******************************/
+
+
+
+#portfolio {
+  background-color: #efefef;
+  min-height: 500px;
+  display:  flex;
+
+  
+}
+
+.portfolio-pieces{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+.portfolio-piece{
+  display:  flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  width:  40%;
+  margin: 30px 0;
+  text-align: left;
+}
+
+  
+
+/******************************** Tablet - Praise Section *******************************/
+
+
+#praise p { 
+  line-height: 1.75em;
+}
+
+
+/******************************** Tablet - About Section *******************************/
+
+
+
+
+#about p { 
+  line-height: 1.33em;
+}
+
+
+
+#about ul{ 
+  margin-top: 50px;
+}
+
+
+
+#about ul li { 
+  line-height: 1.33em;
+}
+
+
+/******************************** Tablet - Footer Styles *******************************/
+
+
+footer { 
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  flex-flow:  row wrap;
+  text-align: center;
+  flex-direction: column;
+  background-color: #424280;
+}
+
+footer p{
+  margin:  0;
+  color:  #ffffff;
+}
+
+footer .content-wrapper{
+  width:  55%;
+  margin: 50px 0;
+}
+
+footer .contact, .social {
+  margin-bottom: 30px;
+}
+
+
+footer .social-icons{
+  display:  flex;
+  justify-content: space-evenly;
+  align-items:  center;
+}
+
+
+footer .social-icons P{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer .social-icons P a{
+  color:  #ffffff;
+}
+
+
+footer .social-icons p i{
+  font-size: 1.5em;
+}
+
+
+footer .copyright{
+  margin:  20px 0;
+}
 
 
 
