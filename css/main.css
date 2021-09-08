@@ -267,6 +267,10 @@ nav ul li a {
   letter-spacing: 2px; 
 }
 
+nav ul li a #contact-button{
+  color: #cbaeeb;
+}
+
 
 /****** BASE FOOTER STYLES ******/
 
@@ -345,6 +349,10 @@ footer .copyright{
   letter-spacing: 1.5px;
 }
 
+.hero-area a{
+  color:  #ffffff;
+}
+
 .down-arrow{
   display:  flex;
   justify-content: center;
@@ -408,7 +416,7 @@ footer .copyright{
 
 
 .portfolio-description{
-  padding-bottom: 7px;
+  padding-bottom: 10px;
   width:  100%;
 }
 
@@ -460,7 +468,8 @@ footer .copyright{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 #about .content-wrapper{
@@ -471,6 +480,7 @@ footer .copyright{
 #about h2 {
   text-align: center;
   color: #ffffff;
+  margin-bottom: 50px;
 }
 
 
@@ -567,6 +577,15 @@ nav ul li a {
   width:  68%;
   margin-left: 10px;
   letter-spacing: 2px;
+}
+
+.hero-area a{
+  color: #cbaeeb;
+}
+
+
+.down-arrow{
+  margin-top: 45px;
 }
 
 /******************************** Tablet - Portfolio Section *******************************/
@@ -692,7 +711,7 @@ footer a i{
 }
 
 footer .copyright{
-  margin:  20px 0;
+  margin:  10px 0 0 0;
 }
 
 
@@ -714,7 +733,7 @@ footer .copyright{
 
 
 header{
-  padding: 15px 0;
+  padding: 20px 0;
 }
 
 .content-wrapper{
@@ -727,15 +746,23 @@ header{
 .hero-area{
   background: url('../img/header-background-image.png');
   background-size: cover;
-  background-position: 30% 30%;
+  background-position: 20% 20%;
   min-height:  700px;
   justify-content: center;
+}
+
+.hero-area .content-wrapper{
+  margin-bottom: 0px;
 }
 
 
 .hero-area h1 { 
   margin-top: 150px;
   width: 60%;
+}
+
+.down-arrow{
+  margin-top: 125px;
 }
 
 
