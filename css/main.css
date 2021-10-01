@@ -116,62 +116,58 @@ ul,ol{
 
 
 a {
-  color: #cbaeeb;
-  font-weight: 900;
+  color: #bf9ded;
+  font-weight: 400;
   text-decoration: none;
 }
 
 
 
 h1 {
-  font-family: 'Adamina', serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2.25em;
   color: #ffffff;
+  font-weight: 400;
   }
 
 
 
 h2 {
   font-family: 'Raleway', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   color:  #ffffff;
   margin:  30px 0px 40px 0px;
-  font-size: 2.25em;
+  font-size: 2.5em;
   }
 
 
 h3 {
-  font-family: 'Adamina', serif;
-  font-weight: ;
+  font-family: 'Lato', serif;
+  font-weight: 400;
   font-size: 1.25em;
   color: #424280;
   margin:  0;
 }
 
 
-h4 { 
-  font-family: 'Adamina', serif;
-  font-weight: ;
-  font-size: 1.5em;
-  color: #ffffff;
-  margin: 40px 0;
-}
+
 
 h5{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Adamina',serif;
   font-weight: 500;
-  color:  #ffffff;
+  color:  #424280;
   margin:  0;
-  font-size: 2.5em;
+  font-size: 2.25em;
+  letter-spacing: 2px;
 }
 
 
 
 h6 { 
   font-family: 'Raleway', sans-serif;
-  font-weight:  ;
-  font-size: .75em;
-  color: #ffffff;
+  font-weight: 300;
+  font-size: .7em;
+  color: #424144;
   margin:  0;
 }
 
@@ -213,7 +209,7 @@ header, footer {
 }
 
 header{
-  background-color: #424280;
+  background-color: #ffffff;
   padding:  30px 0;
 }
 
@@ -229,9 +225,10 @@ header h2{
   width:  100%;
 }
 
+
 .header-divider{
-  background:  #ffffff;
-  height: .75px;
+  background: #8C8CAB;
+  height: .25px;
   width:  90%;
   margin:  10px 0 20px 0;
 }
@@ -258,18 +255,15 @@ nav ul li{
 }
 
 nav ul li a {
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: .7em;
-  color: #ffffff;
-  font-weight: 400;
+  color: #424280;
+  font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px; 
 }
 
-nav ul li a #contact-button{
-  color: #cbaeeb;
-}
 
 
 /****** BASE FOOTER STYLES ******/
@@ -277,13 +271,27 @@ nav ul li a #contact-button{
 footer { 
   text-align: center;
   flex-direction: column;
-  background-color: #424280;
+  background-color: #efefef;
   padding-bottom: 30px;
+}
+
+
+footer h2{
+  color:  #424144;
+  font-weight: 300;
 }
 
 footer p{
   margin:  0;
-  color:  #ffffff;
+  color:  #424144;
+  font-weight: 200;
+  font-size: .85em;
+}
+
+footer h3 { 
+  margin: 40px 0px 25px 0px;
+  color:  #424144;
+  font-weight: 300;
 }
 
 footer .content-wrapper{
@@ -291,7 +299,7 @@ footer .content-wrapper{
 }
 
 footer .contact, .social {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -310,7 +318,7 @@ footer .social-icons P{
 }
 
 footer .social-icons p a{
-  color:  #ffffff;
+  color:  #67666b;
 }
 
 
@@ -320,8 +328,9 @@ footer .social-icons p i{
 
 
 footer .copyright{
-  padding-top: 20px;
+  padding-top: 5px;
 }
+
 
 
 /****** HERO AREA ******/
@@ -350,7 +359,7 @@ footer .copyright{
 }
 
 .hero-area a{
-  color:  #ffffff;
+  color:  #444989;
 }
 
 .down-arrow{
@@ -358,7 +367,7 @@ footer .copyright{
   justify-content: center;
   font-size: 3em;
   margin-bottom: 0;
-
+  margin-top: 100px;
 }
 
 /****** PORTFOLIO ******/
@@ -412,6 +421,7 @@ footer .copyright{
 
 #portfolio h3{
   margin-bottom:  10px;
+  width:  100%;
 }
 
 
@@ -419,14 +429,6 @@ footer .copyright{
   padding-bottom: 10px;
   width:  100%;
 }
-
-.github-link{
-  font-size: .9em;
-  font-weight: 900;
-}
-
-
-
 
 /****** PRAISE ******/
 
@@ -453,9 +455,16 @@ footer .copyright{
 
 
 #praise p { 
-  color: #424280;
+  color: #424144;
   font-size: 1.25em;
-  line-height: 1.75em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+#praise h4{
+text-align: right;
+ font-weight: 200;
+ 
 }
 
 
@@ -464,7 +473,7 @@ footer .copyright{
 
 
 #about {
-  background-color: #8C8CAB;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -478,43 +487,46 @@ footer .copyright{
 
 
 #about h2 {
+  color:  #424280;
   text-align: center;
-  color: #ffffff;
   margin-bottom: 50px;
 }
 
 
 #about p { 
-  color: #ffffff;
   font-size: 1.25em;
-  font-weight: 200;
-  line-height: 2em;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #424144;
 }
 
 
+aside{
+  margin:  60px 0 0 0;
+  width: 100%;
+  height: 350px;
+  background-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #8d8dc9;
+  text-align: center;
 
-#about ul{ 
+}
+
+#about h3{
+  color: #424280;
+  padding:  30px 0 10px 0;
+  font-weight: 400;
+  font-size: 1.25em;
+}
+
+
+#about ul li{
+  margin-top: 20px;
+  color:  #424144;
+  font-weight: 300;
+  font-size: 1.25em;
   
-  list-style: none;
-}
-
-
-
-#about ul li { 
-  color: #ffffff;
-  color: #ffffff;
-  font-size: 1.25em;
-  font-weight: 200;
-  line-height: 2em;
-  padding-bottom: 20px;
-}
-
-
-.bold {
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1em;
-  color: #ffffff;
-  font-weight: 600;
 }
 
 
@@ -542,8 +554,8 @@ header .content-wrapper{
 }
 
 .logo{
-  font-size: .8em;
-  width:  30%;
+  font-size: .85em;
+  width:  40%;
 }
 
 header nav {
@@ -556,12 +568,13 @@ header nav ul{
 
 nav ul li a {
   font-size: .75em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .header-divider{
   display: none;
 }
+
 
 /******************************** Tablet - Hero area ************************************/
 
@@ -580,7 +593,7 @@ nav ul li a {
 }
 
 .hero-area a{
-  color: #cbaeeb;
+  color: #bf9ded;
 }
 
 
@@ -633,24 +646,6 @@ nav ul li a {
 
 /******************************** Tablet - About Section *******************************/
 
-
-
-
-#about p { 
-  line-height: 1.33em;
-}
-
-
-
-#about ul{ 
-  margin-top: 50px;
-}
-
-
-
-#about ul li { 
-  line-height: 1.33em;
-}
 
 
 /******************************** Tablet - Footer Styles *******************************/
@@ -731,6 +726,11 @@ footer .copyright{
 /******************************* Desktop Base styles here *****************************/
 
 
+h5{
+  font-size: 3em;
+
+}
+
 
 header{
   padding: 20px 0;
@@ -786,6 +786,20 @@ header{
 }
 
 
+/******************************** Desktop - About Section *******************************/
+
+
+
+
+.about-sec-half-width{
+  display:  flex;
+  justify-content: center;
+}
+
+aside{
+  margin:  60px 20px 20px 0;
+  width: 30%;
+}
 
 
 
