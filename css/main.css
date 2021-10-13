@@ -331,9 +331,12 @@ footer .copyright{
   padding-top: 5px;
 }
 
+/* ==========================================================================
+   Homepage - Mobile Styles
+   ========================================================================== */
 
 
-/****** HERO AREA ******/
+/************************  HOMEPAGE - MOBILE - HERO AREA *****************/
 
 .hero-area{
   background: url('../img/header-background-image.png');
@@ -370,7 +373,7 @@ footer .copyright{
   margin-top: 100px;
 }
 
-/****** PORTFOLIO ******/
+/*********************** HOMEPAGE - MOBILE - PORTFOLIO *********************/
 
 #portfolio {
   background-color: #efefef;
@@ -430,7 +433,7 @@ footer .copyright{
   width:  100%;
 }
 
-/****** PRAISE ******/
+/******************** HOMEPAGE - MOBILE - PRAISE SECTION *********************/
 
 
 
@@ -468,7 +471,7 @@ text-align: right;
 }
 
 
-/****** ABOUT ******/
+/************************** HOMEPAGE - MOBILE - ABOUT ***********************/
 
 
 
@@ -530,14 +533,259 @@ aside{
 }
 
 
-/*=================================================================
-                      TABLET MEDIA QUERY
-===================================================================*/
+
+/* ==========================================================================
+   BFF Project Page - Mobile Styles
+   ========================================================================== */
+
+
+#bff-project-home-link{
+  font-size: .9em;
+  font-weight: 600;
+  text-transform: none;
+  font-style: italic; 
+}
+
+.bff-project h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.25em;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 1.5em;
+  width:  65%;
+  margin-left: 10px;
+  margin-top: 60px;
+  letter-spacing: 1.5px;
+}
+
+
+/******************** BFF PROJECT PAGE - MOBILE - HERO AREA *******************/
+
+#bff-project-title {
+  font-style: italic;
+}
+
+.bff-project .hero-area{
+  background: url('../img/header-background-image-alternative.png');
+  background-size: cover;
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  min-height:  500px;
+  display:  flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+  .bff-project .hero-area h1{
+    color:  #424280;
+    font-size: 2.4em ;
+  }
+
+ .bff-project-title h1{
+    margin-top: 200px;
+    color: red;
+    margin:  0 0 0 0;
+}
+
+
+/***************** BFF PROJECT PAGE - MOBILE - PORTFOLIO SECTION ************/
+
+#process {
+  background-color: #f5f5f5;
+  min-height: 1000px;
+  display:  flex;
+  justify-content:  center;
+  padding-bottom: 30px;
+  
+}
+
+ .process-portfolio-pieces{
+  display:  flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.process-portfolio-piece{
+  display:  flex;
+  align-items:  center;
+  flex-flow: row wrap;
+  width:  70%;
+  margin: 30px 0;
+  text-align: left;
+}
+
+
+#process .process-portfolio-image{
+  width:  300px;
+  margin-bottom:  40px;
+
+}
+
+
+#process p { 
+  color: #424144;
+  font-size: 1em;
+  text-align: left;
+  margin:  0;
+  
+}
+
+
+#process h2{
+  text-align: center;
+  color: #424144;
+}
+
+
+#process h3{
+  margin-bottom:  10px;
+  width:  100%;
+}
+
+
+.process-portfolio-description{
+  padding-bottom: 10px;
+  width:  100%;
+}
+
+#process .tools-used{
+  color: #bf9ded;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: .9em;
+}
+
+/***************** BFF PROJECT PAGE - MOBILE - RESULTS SECTION ************/
+
+
+#results {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#results .content-wrapper{
+  width:  80%;
+}
+
+
+#results h2 {
+  color:  #424280;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+#results p { 
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #424144;
+}
+
+.results-sec-half-width{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+
+.results-list-background{
+  background-color: #f8ebff;
+  display: flex;
+  justify-content: center;
+  width:  80%;
+  padding:  20px 0 20px 0;
+
+}
+
+
+
+.results-list{
+  width: 75%;
+  background-color: #f8ebff;
+  display: flex;
+  justify-content: center;
+  margin:  0;
+  min-height: 300px;
+}
+
+
+#results aside{
+  margin:  60px 0 0 0;
+  padding:  0;
+  width: 100%;
+  min-height: 500px;
+  background-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #8d8dc9;
+  display:  flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+
+}
+
+.results-heading{
+  background-color: #f7f7f7;
+  height: 100px;
+  width:  90%;
+  margin:  0;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+
+
+#results h3{
+  color: #424280;
+  padding:  50px 0 50px 0;
+  font-weight: 400;
+  font-size: 1.25em;
+  width: 100%;
+}
+
+#results ul{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+}
+
+#results ul li{
+  width:  100%;
+  margin-top:  10px;
+  margin-bottom: 5px;
+  padding: 0 0 0 0;
+  color:  #424144;
+  font-weight: 400;
+  font-size: 1.25em;
+  text-align: left;
+  list-style-type: circle;
+  list-style-position: outside;
+  
+}
+
+
+
+/*============================================================================
+                            TABLET MEDIA QUERY
+============================================================================*/
 
 
 @media only screen and (min-width: 768px){
 
-/******************************* Tablet styles here *****************************/
+/******************************* TABLET STYLES*****************************/
 
 .content-wrapper{
   max-width:  700px;
@@ -576,7 +824,7 @@ nav ul li a {
 }
 
 
-/******************************** Tablet - Hero area ************************************/
+/******************************** HOMEPAGE - TABLET - HERO - AREA************************************/
 
 .hero-area {
   background: url('../img/header-background-image.png');
@@ -601,31 +849,32 @@ nav ul li a {
   margin-top: 45px;
 }
 
-/******************************** Tablet - Portfolio Section *******************************/
+/******************************** HOMEPAGE - TABLET - PORTFOLIO SECTION *******************************/
 
 
 
 #portfolio {
   background-color: #efefef;
   min-height: 500px;
-  display:  flex;
-
-  
+  display:  flex;  
 }
 
-#portfolio .content-wrapper{
+
+#portfolio .content-wrapper {
   width:  70%;
 
 }
 
-.portfolio-pieces{
+.portfolio-pieces {
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
   align-items: flex-start;
 }
 
-.portfolio-piece{
+
+
+.portfolio-piece {
   display:  flex;
   justify-content: flex-start;
   flex-flow: row wrap;
@@ -636,7 +885,7 @@ nav ul li a {
 
   
 
-/******************************** Tablet - Praise Section *******************************/
+/******************************** HOMEPAGE - TABLET - PRAISE - SECTION*******************************/
 
 
 #praise p { 
@@ -644,19 +893,19 @@ nav ul li a {
 }
 
 
-/******************************** Tablet - About Section *******************************/
+/******************************** HOMEPAGE - TABLET - ABOUT SECTION *******************************/
 
 
 
-/******************************** Tablet - Footer Styles *******************************/
+/******************************** HOMEPAGE - TABLET - FOOTER STYLES *******************************/
 
 
-footer .content-wrapper{
+footer .content-wrapper {
   width:  100%;
 }
 
 
-footer .footer-content{
+footer .footer-content {
   display: flex;
   flex-direction: row;
   justify-content:  space-between;
@@ -664,7 +913,7 @@ footer .footer-content{
   
 }
 
-footer h2{
+footer h2 {
   margin-bottom: 10px;
 }
 
@@ -673,30 +922,33 @@ footer .contact, .social, .meet-me {
   width:  33%;
 
 }
- footer .social{
+
+
+ footer .social {
   min-height: 153px;
  }
 
-footer .social-icons{
+footer .social-icons {
   justify-content: space-evenly;
   align-items: flex-end;
   line-height: 0;
   padding-top: 10px;
 }
 
-footer .social-icons P{
+
+footer .social-icons p {
   display:  flex;
   justify-content: center;
   align-items: flex-end;
 
 }
 
-footer p{
+footer p {
   line-height: 1.285em;
   margin:  0;
 }
 
-footer a{
+footer a {
   margin:  0;
 }
 
@@ -710,15 +962,123 @@ footer .copyright{
 }
 
 
+
+
+/* ==========================================================================
+   BFF Project Page - Tablet Styles
+   ========================================================================== */
+
+
+.bff-header nav{
+  width:  20%;
+}
+
+/****************** BFF PROJECT PAGE - TABLET - PORTFOLIO SECTION ************/
+
+#process {
+  background-color: #f5f5f5;
+  min-height: 1000px;
+  display:  flex;
+  justify-content:  center;
+  padding-bottom: 30px;
+  
+}
+
+#process .content-wrapper{
+  width: 100%;
+}
+
+.process-portfolio-pieces{
+  display:  flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.process-portfolio-piece{
+  display:  flex;
+  justify-content: space-between;
+  align-items:  center;
+  flex-flow: row wrap;
+  width:  100%;
+  margin: 40px 0 30px 0;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.figure, .process-description {
+  width:  50%;
+}
+
+.process-portfolio-image{
+  width:  300px;
+  margin-bottom:  40px;
+
+}
+
+
+#process p { 
+  color: #424144;
+  font-size: 1em;
+  text-align: left;
+  margin:  0;
+  
+}
+
+
+#process h2{
+  text-align: center;
+  color: #424144;
+}
+
+
+#process h3{
+  margin-bottom:  10px;
+  width:  100%;
 }
 
 
 
 
 
-/*=================================================================
+/****************** BFF PROJECT PAGE - TABLET - RESULTS SECTION ************/
+
+
+#results aside{
+  margin:  60px 0 0 0;
+  width: 100%;
+  min-height: 600px;
+}
+
+#results h3{
+  color: #424280;
+  
+  font-weight: 400;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+
+#results ul li{
+  margin-top: 20px;
+  color:  #424144;
+  font-weight: 300;
+  font-size: 1.4em;
+  padding-left:  50px;
+  
+}
+
+}
+
+
+
+
+
+
+
+
+/*==========================================================================
                       DESKTOP MEDIA QUERY
-===================================================================*/
+===========================================================================*/
 
 
 @media only screen and (min-width: 1200px){
@@ -766,7 +1126,7 @@ header{
 }
 
 
-/******************************** Desktop - Portfolio Section *******************************/
+/******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/
 
 
 #portfolio .content-wrapper{
@@ -786,9 +1146,7 @@ header{
 }
 
 
-/******************************** Desktop - About Section *******************************/
-
-
+/******************************** HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
 
 
 .about-sec-half-width{
@@ -796,9 +1154,30 @@ header{
   justify-content: center;
 }
 
-aside{
+aside {
   margin:  60px 20px 20px 0;
   width: 30%;
+}
+
+
+/* ==========================================================================
+   BFF Project Page - Desktop Styles
+   ========================================================================== */
+
+
+
+
+/****************** BFF PROJECT PAGE - DESKTOP - RESULTS SECTION ************/
+
+
+
+
+.results-first-half-width, .results-sec-half-width{
+  display:  flex;
+  justify-content: center;
+}
+
+
 }
 
 
