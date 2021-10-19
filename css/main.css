@@ -109,7 +109,6 @@ body {
 
 
 ul,ol{
-    list-style-type: none;
     margin:  0;
     padding: 0;
 }
@@ -248,6 +247,7 @@ header nav ul{
   width:  100%;
   display:  flex;
   justify-content: space-around;
+  list-style-type: none;
 }
 
 nav ul li{
@@ -310,7 +310,7 @@ footer .social-icons{
 }
 
 
-footer .social-icons P{
+footer .social-icons p{
   display:  flex;
   justify-content: center;
   align-items: center;
@@ -341,7 +341,7 @@ footer .copyright{
 .hero-area{
   background: url('../img/header-background-image.png');
   background-size: cover;
-  background-position: 60% 50%;
+  background-position: 55% 50%;
   background-repeat: no-repeat;
   min-height:  600px;
   display:  flex;
@@ -370,13 +370,13 @@ footer .copyright{
   justify-content: center;
   font-size: 3em;
   margin-bottom: 0;
-  margin-top: 100px;
-}
+  margin-top: 175px;
+ }
 
 /*********************** HOMEPAGE - MOBILE - PORTFOLIO *********************/
 
 #portfolio {
-  background-color: #efefef;
+  background-color: #f5f5f5;
   min-height: 1000px;
   display:  flex;
   justify-content:  center;
@@ -481,7 +481,7 @@ text-align: right;
   justify-content: center;
   align-items: center;
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 #about .content-wrapper{
@@ -504,7 +504,84 @@ text-align: right;
 }
 
 
-aside{
+#about ol{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 0;
+  margin-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  list-style-position: outside;
+  list-style-type: circle; 
+
+}
+
+#about li{
+  margin-top: 20px;
+  padding-top: 10px;
+  color:  #424144;
+  font-weight: 300;
+  font-size: 1.25em;
+  margin-left: 30px;
+  
+  
+}
+
+
+
+
+
+/************************** HOMEPAGE - MOBILE - OFFERINGS ***********************/
+
+
+
+#offerings {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+#offerings .content-wrapper{
+  width:  80%;
+}
+
+
+#offerings h2 {
+  width:  80%;
+  color:  #bf9ded;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+
+#offerings .site-visitor-question-background{
+  background-color: #f5f5f5;
+  padding: 10px 5px 10px 5px;
+
+}
+
+#offerings .site-visitor-question{
+ display: flex;
+ width:  100%;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+#offerings p { 
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #424144;
+}
+
+
+#offerings aside{
   margin:  60px 0 0 0;
   width: 100%;
   height: 350px;
@@ -516,21 +593,25 @@ aside{
 
 }
 
-#about h3{
+#offerings h3{
   color: #424280;
   padding:  30px 0 10px 0;
   font-weight: 400;
   font-size: 1.25em;
 }
 
+#offerings ul{
+  list-style-type: none; 
+}
 
-#about ul li{
+#offerings li{
   margin-top: 20px;
   color:  #424144;
   font-weight: 300;
-  font-size: 1.25em;
-  
+  font-size: 1.25em; 
 }
+
+
 
 
 
@@ -546,38 +627,30 @@ aside{
   font-style: italic; 
 }
 
-.bff-project h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 2.25em;
-  color: #ffffff;
-  font-weight: 400;
-  line-height: 1.5em;
-  width:  65%;
-  margin-left: 10px;
-  margin-top: 60px;
-  letter-spacing: 1.5px;
-}
+
 
 
 /******************** BFF PROJECT PAGE - MOBILE - HERO AREA *******************/
 
-#bff-project-title {
-  font-style: italic;
+.bff-case-study-title {
+  font-family: Lato, sans-serif;
+  text-align: center;
 }
 
 .bff-project .hero-area{
   background: url('../img/header-background-image-alternative.png');
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-  min-height:  500px;
+  min-height:  600px;
   display:  flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
   .bff-project .hero-area h1{
-    color:  #424280;
+    padding-top:  100px;
+    
     font-size: 2.4em ;
   }
 
@@ -609,14 +682,15 @@ aside{
   display:  flex;
   align-items:  center;
   flex-flow: row wrap;
-  width:  70%;
+  width:  100%;
   margin: 30px 0;
   text-align: left;
+  justify-content: space-between;
 }
 
 
 #process .process-portfolio-image{
-  width:  300px;
+  width: 100%;
   margin-bottom:  40px;
 
 }
@@ -643,9 +717,14 @@ aside{
 }
 
 
+#process .process-description{
+  width:  100%;
+}
+
 .process-portfolio-description{
   padding-bottom: 10px;
   width:  100%;
+
 }
 
 #process .tools-used{
@@ -854,7 +933,6 @@ nav ul li a {
 
 
 #portfolio {
-  background-color: #efefef;
   min-height: 500px;
   display:  flex;  
 }
@@ -895,6 +973,11 @@ nav ul li a {
 
 /******************************** HOMEPAGE - TABLET - ABOUT SECTION *******************************/
 
+#about .about-sec-general{
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
 
 
 /******************************** HOMEPAGE - TABLET - FOOTER STYLES *******************************/
@@ -1005,15 +1088,15 @@ footer .copyright{
   text-align: left;
 }
 
-.figure, .process-description {
-  width:  50%;
+#process .process-description {
+  width:  48%;
 }
 
-.process-portfolio-image{
-  width:  300px;
+#process .process-portfolio-image{
+  width:  45%;
   margin-bottom:  40px;
-
 }
+
 
 
 #process p { 
@@ -1133,6 +1216,8 @@ header{
   width:  100%;
 }
 
+
+
 .portfolio-pieces{
   margin-left: 13%;
 }
@@ -1140,6 +1225,7 @@ header{
 .portfolio-piece{
   width:  50%;
 }
+
 
 .portfolio-description{
   width:  85%;
@@ -1149,7 +1235,7 @@ header{
 /******************************** HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
 
 
-.about-sec-half-width{
+.about-sec-general{
   display:  flex;
   justify-content: center;
 }
