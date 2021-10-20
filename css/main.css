@@ -148,6 +148,17 @@ h3 {
   margin:  0;
 }
 
+h4{
+  font-family: 'Lato', serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  color: #424280;
+  margin-bottom:  20px;
+
+
+
+}
+
 
 
 
@@ -466,7 +477,7 @@ footer .copyright{
 
 #praise h4{
 text-align: right;
- font-weight: 200;
+font-weight: 200;
  
 }
 
@@ -697,11 +708,10 @@ text-align: right;
 
 
 #process p { 
-  color: #424144;
   font-size: 1em;
-  text-align: left;
-  margin:  0;
-  
+  font-weight: 300;
+  line-height: 1.5em;
+  color: #424144;
 }
 
 
@@ -714,6 +724,7 @@ text-align: right;
 #process h3{
   margin-bottom:  10px;
   width:  100%;
+  color: #bf9ded;
 }
 
 
@@ -727,11 +738,12 @@ text-align: right;
 
 }
 
-#process .tools-used{
-  color: #bf9ded;
+
+#process .tools-used-label{
+  color: #424144;
   margin-top: 10px;
-  font-weight: 600;
-  font-size: .9em;
+  font-weight: 500;
+  font-size: 1em;
 }
 
 /***************** BFF PROJECT PAGE - MOBILE - RESULTS SECTION ************/
@@ -961,6 +973,13 @@ nav ul li a {
   text-align: left;
 }
 
+
+
+
+
+#process .process-description-section{
+  margin-bottom: 60px;
+}
   
 
 /******************************** HOMEPAGE - TABLET - PRAISE - SECTION*******************************/
@@ -1089,23 +1108,24 @@ footer .copyright{
 }
 
 #process .process-description {
-  width:  48%;
+  width:  100%;
 }
 
 #process .process-portfolio-image{
-  width:  45%;
+  display: flex;
+  justify-content: center;
+  width:  100%;
   margin-bottom:  40px;
+  margin-top:  40px;
 }
-
-
 
 #process p { 
+  font-size: 1.15em;
+  font-weight: 300;
+  line-height: 1.5em;
   color: #424144;
-  font-size: 1em;
-  text-align: left;
-  margin:  0;
-  
 }
+
 
 
 #process h2{
@@ -1118,6 +1138,7 @@ footer .copyright{
   margin-bottom:  10px;
   width:  100%;
 }
+
 
 
 
