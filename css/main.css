@@ -591,7 +591,7 @@ font-weight: 200;
   align-items: center;
   justify-content: center;
   align align-items: center;
-  background-color: #bf9ded;
+  background-color:  #f2ebfb;
   min-height: 500px;
   padding-bottom: 30px;
 }
@@ -604,12 +604,12 @@ font-weight: 200;
 
 #case-study h2 {
   text-align: center;
-  color: #ffffff;
+  color: #424144;
 }
 
 
 #case-study p { 
-  color: #ffffff;
+  color: #424144;
   font-size: 1.5em;
   line-height: 1.5em;
   font-weight: 300;
@@ -725,29 +725,6 @@ font-weight: 200;
   font-size: 1.25em; 
 }
 
-#offerings .offerings-section-button{
-  display:  flex;
-  width: 100%;
-  padding-top: 100px;
-  justify-content: center;
-}
-
-
-#offerings button{
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  border: none;
-  color: #ffffff;
-  background-color: #8d8dc9;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.15em;
-  margin: 0 0 0px 0;
-  cursor: pointer;
-  word-spacing: 3.5px;
-}
 
 
 
@@ -981,7 +958,7 @@ font-weight: 200;
 
 
 .results-list-background{
-  background-color: none;
+  background-color:  #f2ebfb;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -994,7 +971,7 @@ font-weight: 200;
 
 .results-list{
   width: 75%;
-  background-color: none;
+  background-color:  #f2ebfb;
   display: flex;
   justify-content: center;
   margin:  0;
@@ -1434,7 +1411,7 @@ footer .copyright{
 #results ul li{
   margin-top: 20px;
   color:  #424144;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.4em;
   padding-left:  50px; 
   color: #424144;
