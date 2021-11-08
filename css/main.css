@@ -789,7 +789,7 @@ font-weight: 200;
 }
 
 #bff-header ul{
-  width:  80%;
+  width:  100%;
   background-color: none;
   display:  flex;
   justify-content: space-evenly;
@@ -801,7 +801,7 @@ font-weight: 200;
   font-size: .9em;
   font-weight: 600;
   text-transform: none;
-  font-style: italic; 
+  font-style: none; 
 }
 
 
@@ -858,7 +858,6 @@ font-weight: 200;
 }
 
 #overview span{
-
 font-weight: 500;
 }
 
@@ -933,20 +932,12 @@ font-weight: 500;
 }
 
 
-
-
-
-
-
-
-
-
-
 /***************** BFF PROJECT PAGE - MOBILE - PHASES SECTION ************/
 
 #phases {
+
   background-color: #f5f5f5;
-  min-height: 1000px;
+  min-height: 500px;
   display:  flex;
   justify-content:  center;
   padding-bottom: 30px;
@@ -987,13 +978,16 @@ font-weight: 500;
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 10px 0 10px 0;
+  padding: 0;
   margin-top:  30px;
   margin-bottom:  60px;
+  flex-flow: row wrap;
 }
 
+
 #phases img{
-  width:  75%;
+  display:  flex;
+  align-self: center;
 }
 
 
@@ -1118,6 +1112,7 @@ font-weight: 500;
   color: #424144;
 }
 
+
 .results-sec-half-width{
   display: flex;
   justify-content: center;
@@ -1125,13 +1120,12 @@ font-weight: 500;
 }
 
 
-
 .results-list-background{
   background-color:  #f2ebfb;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width:  80%;
+  width:  85%;
   padding:  20px 0 20px 0;
 
 }
@@ -1150,9 +1144,9 @@ font-weight: 500;
 
 #results aside{
   margin:  60px 0 0 0;
-  padding:  20px 10px 20px 10px;
+  padding:  20px 10px 35px 10px;
   width: 100%;
-  min-height: 500px;
+  min-height: 400px;
   background-color: #ffffff;
   border-width: 2px;
   border-style: solid;
@@ -1167,13 +1161,13 @@ font-weight: 500;
 .results-heading{
   background-color: #f7f7f7;
   height: 100px;
-  width:  90%;
-  margin:  0;
+  width:  93%;
+  margin: 10px 0px 20px 0px;
   display:  flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  margin: 15px 0 0px;
+  
 }
 
 
@@ -1191,7 +1185,7 @@ font-weight: 500;
   flex-flow: row wrap;
   align-items: flex-start;
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 10px;
   width: 100%; 
 }
 
@@ -1200,13 +1194,12 @@ font-weight: 500;
   margin-top:  10px;
   margin-bottom: 5px;
   padding: 0 0 0 20px;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.15em;
   text-align: left;
   list-style-type: circle;
   list-style-position: outside;
   color:  #424144;
-  
 }
 
 
@@ -1224,7 +1217,7 @@ font-weight: 500;
   font-weight: 300;
   border: none;
   color: #ffffff;
-  background-color: #8d8dc9;
+  background-color: #424280;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -1593,8 +1586,8 @@ footer .copyright{
 #results ul li{
   margin-top: 20px;
   color:  #424144;
-  font-weight: 200;
-  font-size: 1.4em;
+  font-weight: 300;
+  font-size: 1.25em;
   padding-left:  50px; 
   color: #424144;
 }
@@ -1606,7 +1599,9 @@ footer .copyright{
 
 
 
-
+.results-list-background{
+  padding:  30px 0 20px 0;
+}
 
 
 
@@ -1660,7 +1655,7 @@ header{
 
 
 .hero-area h1 { 
-  margin-top: 100px;
+  margin-top: 70px;
   margin-right: 100px;
   letter-spacing: 1.5px;
   font-size: 3em;
@@ -1669,7 +1664,7 @@ header{
 
 
 .down-arrow{
-  margin-top: 125px;
+  margin-top: 50px;
 }
 
 
@@ -1790,8 +1785,19 @@ aside {
 }
 
 
+.results-list-background{
+  padding:  40px 0 20px 0;
+}
 
 
+#results ul li{
+  margin-top:  10px;
+  margin-bottom: 5px;
+  padding: 0 0 0 20px;
+  font-weight: 300;
+  font-size: 1.25em;
+  
+}
 
 
 }
