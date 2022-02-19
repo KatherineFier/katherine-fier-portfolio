@@ -209,20 +209,7 @@ address{
 }
 
 
-button{
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  border: none;
-  color: #ffffff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.15em;
-  margin: 0 0 0px 0;
-  cursor: pointer;
-  word-spacing: 3.5px;
-}
+
 
 
 
@@ -375,7 +362,7 @@ footer .copyright{
 /************************  HOMEPAGE - MOBILE - HERO AREA *****************/
 
 .hero-area{
-  background: url('../img/header-background-image.png');
+  background-color: #cdd1dc;
   background-size: cover;
   background-position: 55% 50%;
   background-repeat: no-repeat;
@@ -393,15 +380,13 @@ footer .copyright{
 
 .hero-area h1 { 
   line-height: 1.5em;
-  width:  60%;
-  margin-right: 120px;
+  width:  100%;
+  margin-right: 0PXpx;
   padding-top: 20px;
   letter-spacing: 1.5px;
+  font-size: 3em;
 }
 
-.hero-area a{
- 
-}
 
 .down-arrow{
   display:  flex;
@@ -447,7 +432,6 @@ footer .copyright{
 
 #portfolio p { 
   color: #424144;
-  font-size: 1em;
   text-align: left;
   margin:  0;
   
@@ -466,9 +450,27 @@ footer .copyright{
 }
 
 
-.portfolio-description{
-  padding-bottom: 10px;
+.portfolio-description-sub-heading{
+  font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 20px;
   width:  100%;
+  text-transform: uppercase;
+  font-size: .85em;
+}
+
+
+.portfolio-description-sub-heading span{
+  padding-bottom: 100px;
+}
+
+
+.view-project-link{
+  margin-top: 30px;
+  text-decoration: underline;
+  font-size: .90em;
+
+
 }
 
 
@@ -480,20 +482,18 @@ footer .copyright{
   justify-content: center;
 }
 
-#portfolio button{
+.portfolio-section-button a{
+
+  background-color: #8d8dc9;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  color: #ffffff;
   font-family: Lato, sans-serif;
   font-weight: 300;
-  border: none;
-  color: #ffffff;
-  background-color: #8d8dc9;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 1.15em;
-  margin: 0 0 0px 0;
-  cursor: pointer;
-  word-spacing: 3.5px;
+  margin-top: 35px;
+ 
+ 
 }
 
 
@@ -606,7 +606,7 @@ font-weight: 200;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  align align-items: center;
+  align-items: center;
   background-color:  #f2ebfb;
   min-height: 500px;
   padding-bottom: 30px;
@@ -644,20 +644,16 @@ font-weight: 200;
   justify-content: center;
 }
 
-#case-study button {
+.case-study-sec-button a{
+  background-color: #8d8dc9;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  color: #ffffff;
   font-family: Lato, sans-serif;
   font-weight: 300;
-  border: none;
-  color: #ffffff;
-  background-color: #424280;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 1.15em;
-  margin: 0 0 0px 0;
-  cursor: pointer;
-  word-spacing: 3.5px;
+  margin-top: 35px;
+  
 }
 
 
@@ -752,20 +748,15 @@ font-weight: 200;
 }
 
 
-#offerings button{
+.offerings-section-button a{
+  background-color: #8d8dc9;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  color: #ffffff;
   font-family: Lato, sans-serif;
   font-weight: 300;
-  border: none;
-  color: #ffffff;
-  background-color: #8d8dc9;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 1.15em;
-  margin: 0 0 0px 0;
-  cursor: pointer;
-  word-spacing: 3.5px;
+  margin-top: 35px;
 }
 
 
@@ -785,12 +776,12 @@ font-weight: 200;
   justify-content:  center;
   align-items:  center;
   flex-flow: row wrap;
-  background-color: none;
+  background-color: #ffffff;
 }
 
 #bff-header ul{
   width:  100%;
-  background-color: none;
+  background-color: #ffffff;
   display:  flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -800,8 +791,7 @@ font-weight: 200;
 #bff-project-home-link{
   font-size: .9em;
   font-weight: 600;
-  text-transform: none;
-  font-style: none; 
+  text-transform: none; 
 }
 
 
@@ -812,7 +802,9 @@ font-weight: 200;
 
 
 #bff h1 { 
-  font-size: 3.5em;
+  font-size: 3.75em;
+  width: 100%;
+  margin-left: 35px;
 }
 
 
@@ -871,7 +863,7 @@ font-weight: 500;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  align align-items: center;
+  align-items: center;
   background-color:  #f2ebfb;
   min-height: 350px;
   padding-bottom: 30px;
@@ -997,11 +989,6 @@ font-weight: 500;
   font-weight: 200;
   line-height: 1.5em;
   color: #424144;
-  width: ;
-}
-
-#phases span{
-  font-weight: ;
 }
 
 
@@ -1053,7 +1040,6 @@ font-weight: 500;
   padding-bottom:  20px;
   font-size: 1em;
   font-family: Raleway, sans-serif;
-  font-weight: ;
 }
 
 
@@ -1238,7 +1224,7 @@ font-weight: 500;
 
 @media only screen and (min-width: 768px){
 
-/******************************* TABLET STYLES*****************************/
+/******************************* TABLET GENERAL STYLES*****************************/
 
 .content-wrapper{
   max-width:  700px;
@@ -1282,8 +1268,11 @@ nav ul li a {
 .hero-area {
   background: url('../img/header-background-image.png');
   background-position: 50% 30%;
+  background-size: cover;
   min-height:  500px;
 }
+
+
 
 .hero-area h1 { 
   font-size: 2.5em;
@@ -1293,6 +1282,8 @@ nav ul li a {
   letter-spacing: 2px;
   padding-top: 25px;
 }
+
+
 
 
 .down-arrow{
@@ -1448,13 +1439,18 @@ footer .copyright{
   justify-content:  space-between;
   align-items:  center;
   flex-flow: row wrap;
-  background-color: none;
 }
 
 #bff-header ul{
   width:  100%;
 }
 
+
+#bff h1 { 
+  font-size: 3.75em;
+  width: 70%;
+  margin-left: 5px;
+}
 
 
 
@@ -1520,7 +1516,7 @@ footer .copyright{
 }
 
 #phases h2{
-  margin: 0px 0 75x 0;
+  margin: 0px 0 75px 0;
   padding: 20px 0 30px 0;
   text-align: center;
   color: #424144;
@@ -1680,16 +1676,12 @@ header{
 }
 
 
-.portfolio-pieces{
-
-}
-
 .portfolio-piece{
   width:  45%;
 }
 
 
-.portfolio-description{
+.portfolio-description-sub-heading{
   width:  100%;
 }
 
@@ -1744,10 +1736,6 @@ aside {
 #bff h1{
   font-size: 4em;
   line-height: 1.75;
-}
-
-#bff h1 span { 
-
 }
 
 
