@@ -155,9 +155,6 @@ h4{
   font-size: 1.25em;
   color: #424280;
   margin-bottom:  20px;
-
-
-
 }
 
 
@@ -309,6 +306,14 @@ footer p{
   color:  #424144;
   font-weight: 200;
   font-size: .85em;
+}
+
+footer .contact a {
+  margin:  0;
+  color:  #bf9ded;
+  font-weight: 400;
+  font-size: .85em;
+
 }
 
 footer h3 { 
@@ -797,14 +802,46 @@ font-weight: 200;
 
 /******************** BFF CASE STUDY PAGE - MOBILE - HERO AREA *******************/
 
+/************************  HOMEPAGE - MOBILE - HERO AREA *****************/
 
+.bff-hero-area{
+  background: url('../img/bff-hero-image.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  min-height:  600px;
+  display:  flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
+.bff-hero-area .content-wrapper{
+  margin-bottom: 0px;
+  display: flex;
+  flex-flow: row wrap;
+}
 
 #bff h1 { 
   font-size: 3.75em;
   width: 100%;
   margin-left: 35px;
+  
 }
+
+
+.down-arrow{
+  display:  flex;
+  justify-content: center;
+  font-size: 3em;
+  margin-bottom: 0;
+  margin-top: 50px;
+  width:  100%;
+ }
+
+
+
+
+
 
 
 
@@ -855,79 +892,12 @@ font-weight: 500;
 
 
 
-/******************** BFF CASE STUDY PAGE - MOBILE - CASE STUDY PROCESS SECTION *********************/
+/******************** BFF CASE STUDY PAGE - MOBILE - CASE STUDY PROCESS/RESULTS SECTION *********************/
 
- #case-study-process{
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
-  background-color:  #f2ebfb;
-  min-height: 350px;
-  padding-bottom: 30px;
-}
-
-
-
-#case-study-process .content-wrapper{
-  width:  80%;
-}
-
- #case-study-process h2 {
-  text-align: center;
-  color: #424144;
-  padding: 20px 0 20px 0;
-}
-
-
- #case-study-process p { 
-  color: #424144;
-  font-size: 1.5em;
-  line-height: 1.5em;
-  font-weight: 300;
-}
-
-
-#case-study-process p{ 
-  text-align: center;
-  
-}
-
-
-.case-study-process-sec-button{
-  display:  flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  justify-content: center;
-}
-
-
-#case-study-process a{
-    background-color: #424280;
-    padding: 20px 50px 20px 50px;
-    text-align: center;
-    color: #ffffff;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 1.15em;
-    margin-top: 35px;
-   font-family: Lato, sans-serif;
-   font-weight: 300;
-}
-
-
-
-
-/************************ BFF CASE STUDY PAGE - MOBILE - RESULTS SECTION *********************/
 
 
 #results {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -976,7 +946,7 @@ font-weight: 500;
 
 .results-list{
   width: 75%;
-  background-color:  #f2ebfb;
+  background-color: #f2ebfb;
   display: flex;
   justify-content: center;
   margin:  0;
@@ -1073,6 +1043,203 @@ font-weight: 500;
 
 
 
+
+
+
+
+
+
+/******************** BFF CASE STUDY PAGE - MOBILE - TOOLS SECTION *********************/
+
+
+#tools{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color:  #f2ebfb;
+  min-height: 350px;
+  padding-bottom: 30px;
+}
+
+
+#tools .content-wrapper{
+  width:  80%;
+}
+
+ #tools h2 {
+  text-align: center;
+  color: #424280;
+  padding: 20px 0 20px 0;
+}
+
+
+ #tools article { 
+  width: 30%;
+  margin: 30px 
+}
+
+
+#tools .tools-icons{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  
+}
+
+#tools i {
+  font-size: 3em;
+  margin-bottom: 40px;
+  color: #424144;
+}
+
+#tools p {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.tools-sec-button{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+
+#tools a{
+    background-color: #424280;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 1.15em;
+    margin-top: 35px;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+}
+
+/******************** BFF CASE STUDY PAGE - MOBILE - CHALLENGES SECTION *********************/
+
+
+
+
+#challenges{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color:  ;
+  min-height: 350px;
+  padding-bottom: 30px;
+}
+
+
+#challenges .content-wrapper{
+  width:  80%;
+}
+
+ #challenges h2 {
+  text-align: center;
+  color: #424280;
+  padding: 20px 0 20px 0;
+}
+
+
+#challenges p {
+  color: #424144;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-weight: 200;
+  text-align: left;
+  margin: 0 0 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************ BFF CASE STUDY PAGE - MOBILE - CONCLUSION SECTION *********************/
+
+#conclusion{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color:  #ffffff;
+  min-height: 350px;
+  padding-bottom: 30px;
+}
+
+
+#conclusion .content-wrapper{
+  width:  80%;
+}
+
+ #conclusion h2 {
+  text-align: center;
+  color: #424144;
+  padding: 20px 0 20px 0;
+}
+
+
+ #conclusion p { 
+  color: #424144;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 300;
+}
+
+
+#conclusion p{ 
+  text-align: center;
+  
+}
+
+
+.conclusion-button{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+
+#conclusion a{
+    background-color: #424280;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 1.15em;
+    margin-top: 35px;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+}
+
+
+
 /*============================================================================
                             TABLET MEDIA QUERY
 ============================================================================*/
@@ -1128,8 +1295,6 @@ nav ul li a {
   min-height:  500px;
 }
 
-
-
 .hero-area h1 { 
   font-size: 2.5em;
   line-height: 1.5em;
@@ -1138,9 +1303,6 @@ nav ul li a {
   letter-spacing: 2px;
   padding-top: 25px;
 }
-
-
-
 
 .down-arrow{
   margin-top: 45px;
@@ -1302,11 +1464,34 @@ footer .copyright{
 }
 
 
-#bff h1 { 
-  font-size: 3.75em;
-  width: 70%;
-  margin-left: 5px;
+
+/****************** BFF PROJECT PAGE - TABLET - HERO SECTION ************/
+
+
+.bff-hero-area {
+  background-position: 50% 30%;
+  background-size: cover;
+  min-height:  500px;
 }
+
+#bff .content-wrapper{
+  width: 100%
+
+}
+
+
+#bff h1 { 
+  font-size: 4em;
+  width: 100%;
+  margin-left: 0px;
+}
+
+
+
+.down-arrow{
+  margin-top: 45px;
+}
+
 
 
 
@@ -1318,12 +1503,36 @@ footer .copyright{
 }
 
 
+/****************** BFF PROJECT PAGE - TABLET - TOOLS SECTION ************/
 
 
 
+#tools article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 20%;
+}
 
 
+#tools .tool-description {
+  width: 45%;
+}
 
+
+#tools i{
+margin-bottom: 25px;
+}
+
+
+/****************** BFF PROJECT PAGE - TABLET - CHALLENGES SECTION ************/
+
+#challenges p {
+  font-size: 1.5em;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+}
 
 /****************** BFF PROJECT PAGE - TABLET - RESULTS SECTION ************/
 
@@ -1511,6 +1720,50 @@ aside {
 
 
 
+/****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
+
+
+.bff-hero-area{
+  background: url('../img/bff-hero-image.png');
+  background-size: cover;
+  background-position: 20% 20%;
+  min-height:  700px;
+  justify-content: center;
+}
+
+.bff-hero-area .content-wrapper{
+  margin-bottom: 0px;
+}
+
+
+.bff-hero-area h1 { 
+  margin-top: 70px;
+  margin-right: 0px;
+  padding: 0px;
+  letter-spacing: 1.5px;
+  font-size: 3em;
+  width:  100%;
+}
+
+
+.down-arrow{
+  margin-top: 50px;
+}
+
+
+
+
+/****************** BFF CASE STUDY PAGE - DESKTOP - TOOLS SECTION ************/
+
+
+
+
+#tools article {
+flex-basis: 17%;
+}
+
+
+
 /****************** BFF CASE STUDY PAGE - DESKTOP - RESULTS SECTION ************/
 
 
@@ -1533,11 +1786,10 @@ aside {
   padding: 0 0 0 20px;
   font-weight: 300;
   font-size: 1.25em;
-  
 }
 
 
-}
+
 
 
 
