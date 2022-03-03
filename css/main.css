@@ -438,7 +438,11 @@ footer .copyright{
   color: #424144;
   text-align: left;
   margin:  0;
-  
+}
+
+.project-tools{
+  font-size: .85em;
+  font-weight: 300;
 }
 
 
