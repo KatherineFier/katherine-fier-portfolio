@@ -897,7 +897,7 @@ font-weight: 500;
 
 
 #results {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -973,7 +973,7 @@ font-weight: 500;
 .results-heading{
   background-color: #f7f7f7;
   height: 100px;
-  width:  93%;
+  width:  85%;
   margin: 10px 0px 20px 0px;
   display:  flex;
   flex-flow: row wrap;
@@ -1138,7 +1138,7 @@ font-weight: 500;
   align-items: center;
   justify-content: center;
   align-items: center;
-  background-color:  ;
+  background-color: #f2ebfb;
   min-height: 350px;
   padding-bottom: 30px;
 }
@@ -1176,41 +1176,94 @@ font-weight: 500;
 
 /************************ BFF CASE STUDY PAGE - MOBILE - CONCLUSION SECTION *********************/
 
-#conclusion{
+#conclusion {
+  background-color: #ffffff;
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
   justify-content: center;
   align-items: center;
-  background-color:  #ffffff;
-  min-height: 350px;
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
-
 
 #conclusion .content-wrapper{
   width:  80%;
 }
 
- #conclusion h2 {
+
+
+#conclusion h2 {
+  color:  #424280;
   text-align: center;
-  color: #424144;
-  padding: 20px 0 20px 0;
+  margin-bottom: 50px;
 }
 
 
- #conclusion p { 
-  color: #424144;
-  font-size: 1.5em;
-  line-height: 1.5em;
+#conclusion p { 
+  font-size: 1em;
   font-weight: 300;
+  line-height: 1.5em;
+  color: #424144;
 }
 
+.conclusion-list{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: center;
+  width: 85%
+};
 
-#conclusion p{ 
-  text-align: center;
+#conclusion ul{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 0 0px 100px;
+  padding: 0 0 0 10px;
+  width: 100%; 
+}
+
+#conclusion ul li{
+  width:  100%;
+  margin:  10px 0px 20px 0px;
+  padding: 0 0 0 40px;
+  font-weight: 300;
+  font-size: 1.25em;
+  text-align: left;
+  list-style: none;
+  list-style-position: outside;
+  color:  #424144;
+  line-height: 1.33em;
+  position: relative;
   
 }
+
+
+.conclusion-section-button{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  justify-content: center;
+  margin:  10px 0 0 0;
+}
+
+
+#conclusion a{
+    background-color: #424280;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 1.15em;
+    margin-top: 35px;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+}
+
 
 
 .conclusion-button{
