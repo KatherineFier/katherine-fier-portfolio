@@ -807,7 +807,7 @@ font-weight: 200;
 .bff-hero-area{
   background: url('../img/bff-hero-image.png');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 95% 5%;
   background-repeat: no-repeat;
   min-height:  600px;
   display:  flex;
@@ -819,25 +819,25 @@ font-weight: 200;
   margin-bottom: 0px;
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-#bff h1 { 
+.bff-hero-area h1 { 
   font-size: 3.75em;
-  width: 100%;
-  margin-left: 35px;
-  
+  width: 80%;
+  margin-top: 60px;
 }
 
 
-.down-arrow{
+/*******.down-arrow{
   display:  flex;
   justify-content: center;
   font-size: 3em;
   margin-bottom: 0;
   margin-top: 50px;
   width:  100%;
- }
-
+ }******/
 
 
 
@@ -1130,8 +1130,6 @@ font-weight: 500;
 /******************** BFF CASE STUDY PAGE - MOBILE - CHALLENGES SECTION *********************/
 
 
-
-
 #challenges{
   display: flex;
   flex-flow: row wrap;
@@ -1143,7 +1141,6 @@ font-weight: 500;
   padding-bottom: 30px;
 }
 
-
 #challenges .content-wrapper{
   width:  80%;
 }
@@ -1154,7 +1151,6 @@ font-weight: 500;
   padding: 20px 0 20px 0;
 }
 
-
 #challenges p {
   color: #424144;
   font-size: 1.25em;
@@ -1163,15 +1159,6 @@ font-weight: 500;
   text-align: left;
   margin: 0 0 30px 0;
 }
-
-
-
-
-
-
-
-
-
 
 
 /************************ BFF CASE STUDY PAGE - MOBILE - CONCLUSION SECTION *********************/
@@ -1356,6 +1343,38 @@ nav ul li a {
   letter-spacing: 2px;
   padding-top: 25px;
 }
+
+
+
+
+/*******.bff-hero-area{
+  background: url('../img/bff-hero-image.png');
+  background-size: cover;
+  background-position: 95% 5%;
+  background-repeat: no-repeat;
+  min-height:  600px;
+  display:  flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.bff-hero-area .content-wrapper{
+  margin-bottom: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.bff-hero-area h1 { 
+  font-size: 3.75em;
+  width: 80%;
+  margin-top: 60px;
+}*****/
+
+
+
+
 
 .down-arrow{
   margin-top: 45px;
@@ -1762,24 +1781,13 @@ aside {
   justify-content: space-around;
   }
 
-
-#bff h1{
-  font-size: 4em;
-  line-height: 1.75;
-}
-
-
-
-
-
-
 /****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
 
 
 .bff-hero-area{
   background: url('../img/bff-hero-image.png');
   background-size: cover;
-  background-position: 20% 20%;
+  background-position: 30% 70%;
   min-height:  700px;
   justify-content: center;
 }
@@ -1790,12 +1798,14 @@ aside {
 
 
 .bff-hero-area h1 { 
-  margin-top: 70px;
+  line-height: 1.75;
+  margin-top: 120px;
   margin-right: 0px;
   padding: 0px;
   letter-spacing: 1.5px;
   font-size: 3em;
   width:  100%;
+  font-weight: 400;
 }
 
 
