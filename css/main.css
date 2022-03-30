@@ -1164,6 +1164,10 @@ font-weight: 500;
   margin: 0 0 30px 0;
 }
 
+.challenge-highlight {
+  font-weight: 400;
+  font-size: 1.15em;
+}
 
 /************************ BFF CASE STUDY PAGE - MOBILE - CONCLUSION SECTION *********************/
 
@@ -1178,9 +1182,11 @@ font-weight: 500;
 
 #conclusion .content-wrapper{
   width:  80%;
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
-
-
 
 #conclusion h2 {
   color:  #424280;
@@ -1200,6 +1206,7 @@ font-weight: 500;
   display:  flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: center;
   width: 85%
 };
 
@@ -1208,7 +1215,7 @@ font-weight: 500;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
-  margin: 0 0 0px 100px;
+  margin: 0 0 0 100px;
   padding: 0 0 0 10px;
   width: 100%; 
 }
@@ -1216,8 +1223,8 @@ font-weight: 500;
 #conclusion ul li{
   width:  100%;
   margin:  10px 0px 20px 0px;
-  padding: 0 0 0 40px;
-  font-weight: 300;
+  padding: 0 0 0 0px;
+  font-weight: 400;
   font-size: 1.25em;
   text-align: left;
   list-style: none;
@@ -1256,7 +1263,6 @@ font-weight: 500;
 }
 
 
-
 .conclusion-button{
   display:  flex;
   justify-content: center;
@@ -1267,21 +1273,6 @@ font-weight: 500;
   padding-bottom: 30px;
   justify-content: center;
 }
-
-
-#conclusion a{
-    background-color: #424280;
-    padding: 20px 50px 20px 50px;
-    text-align: center;
-    color: #ffffff;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 1.15em;
-    margin-top: 35px;
-   font-family: Lato, sans-serif;
-   font-weight: 300;
-}
-
 
 
 /*============================================================================
@@ -1552,7 +1543,6 @@ footer .copyright{
 
 #bff .content-wrapper{
   width: 100%
-
 }
 
 
@@ -1576,6 +1566,7 @@ footer .copyright{
 
 #overview p { 
   line-height: 1.5em;
+  font-size: 1.6em;
 }
 
 
@@ -1602,15 +1593,7 @@ margin-bottom: 25px;
 }
 
 
-/****************** BFF PROJECT PAGE - TABLET - CHALLENGES SECTION ************/
-
-#challenges p {
-  font-size: 1.5em;
-  padding-bottom: 25px;
-  margin-bottom: 35px;
-}
-
-/****************** BFF PROJECT PAGE - TABLET - RESULTS SECTION ************/
+/****************** BFF PROJECT PAGE - TABLET - PROCESS (AKA RESULTS) SECTION ************/
 
 
 #results aside{
@@ -1620,9 +1603,7 @@ margin-bottom: 25px;
 }
 
 
-
-.results-heading{
-  
+.results-heading{  
   margin-top: 50px;
 }
 
@@ -1649,17 +1630,62 @@ margin-bottom: 25px;
 }
 
 
-
 .results-list-background{
   padding:  30px 0 20px 0;
 }
 
+/****************** BFF PROJECT PAGE - TABLET - CHALLENGES SECTION ************/
 
-
+#challenges p {
+  font-size: 1.5em;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+  line-height: 1.6em;
 }
 
 
+/****************** BFF CASE STUDY PAGE - TABLET - CONCLUSION SECTION ************/
 
+
+
+#conclusion .content-wrapper{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+
+.conclusion-list{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+#conclusion ul{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0px 50px;
+  padding: 0 0px 0 10px;
+  width: 100%; 
+}
+
+#conclusion ul li{
+  width: 100%;
+  font-weight: 300;
+  font-size: 1.75em;
+  padding-bottom: 20px;
+  
+}
+
+
+}
 
 
 
@@ -1675,7 +1701,6 @@ margin-bottom: 25px;
 
 h5{
   font-size: 3em;
-
 }
 
 
@@ -1683,7 +1708,7 @@ header{
   padding: 20px 0;
 }
 
-.content-wrapper{
+.content-wrapper {
   max-width:  960px;
 }
 
@@ -1820,10 +1845,16 @@ aside {
 
 
 
+/****************** BFF CASE STUDY PAGE - DESKTOP - OVERVIEW SECTION ************/
+
+
+
+#overview p { 
+  line-height: 1.5em;
+  font-size: 1.75em;
+}
+
 /****************** BFF CASE STUDY PAGE - DESKTOP - TOOLS SECTION ************/
-
-
-
 
 #tools article {
 flex-basis: 17%;
@@ -1855,6 +1886,8 @@ flex-basis: 17%;
   font-size: 1.25em;
 }
 
+
+/****************** BFF CASE STUDY PAGE - DESKTOP - CONCLUSION SECTION ************/
 
 
 
