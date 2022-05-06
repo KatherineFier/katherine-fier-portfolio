@@ -564,7 +564,7 @@ font-weight: 200;
 #about h2 {
   color:  #424280;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 
@@ -1423,6 +1423,12 @@ nav ul li a {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
+}
+
+#about h2 {
+  color:  #424280;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 #about li{
