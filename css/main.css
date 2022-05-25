@@ -158,8 +158,6 @@ h4{
 }
 
 
-
-
 h5{
   font-family: 'Adamina',serif;
   font-weight: 500;
@@ -542,6 +540,84 @@ font-weight: 200;
  
 }
 
+/******************** HOMEPAGE - MOBILE - TOOLS SECTION *********************/
+
+
+#tools{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color:  #f2ebfb;
+  min-height: 350px;
+  padding-bottom: 30px;
+}
+
+
+#tools .content-wrapper{
+  width:  80%;
+}
+
+ #tools h2 {
+  text-align: center;
+  color: #424280;
+  padding: 20px 0 20px 0;
+}
+
+
+ #tools article { 
+  width: 30%;
+  margin: 30px 
+}
+
+
+#tools .tools-icons{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  
+}
+
+#tools i {
+  font-size: 3em;
+  margin-bottom: 40px;
+  color: #424144;
+}
+
+#tools p {
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.tools-sec-button{
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+
+#tools a{
+    background-color: #424280;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 1.15em;
+    margin-top: 35px;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+}
+
 
 /************************** HOMEPAGE - MOBILE - ABOUT ***********************/
 
@@ -607,62 +683,6 @@ font-weight: 200;
 
 
 
-/******************** HOMEPAGE - MOBILE - CASE STUDY  *********************/
-
-#case-study{
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
-  background-color:  #f2ebfb;
-  min-height: 500px;
-  padding-bottom: 30px;
-}
-
-
-
-#case-study .content-wrapper {
-  width:  80%;
-}
-
-#case-study h2 {
-  text-align: center;
-  color: #424144;
-}
-
-
-#case-study p { 
-  color: #424144;
-  font-size: 1.5em;
-  line-height: 1.5em;
-  font-weight: 300;
-}
-
-
-
-.case-study-sec-button {
-  display:  flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
-  padding-top: 25px;
-  padding-bottom: 30px;
-  justify-content: center;
-}
-
-.case-study-sec-button a{
-  background-color: #8d8dc9;
-  padding: 20px 50px 20px 50px;
-  text-align: center;
-  color: #ffffff;
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  font-size: 1.15em;
-  margin-top: 35px;
-  
-}
 
 
 /************************** HOMEPAGE - MOBILE - OFFERINGS ***********************/
@@ -1046,17 +1066,10 @@ font-weight: 500;
 
 
 
-
-
-
-
-
-
-
 /******************** BFF CASE STUDY PAGE - MOBILE - TOOLS SECTION *********************/
 
 
-#tools{
+#bff-tools{
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -1068,24 +1081,24 @@ font-weight: 500;
 }
 
 
-#tools .content-wrapper{
+#bff-tools .content-wrapper{
   width:  80%;
 }
 
- #tools h2 {
+ #bff-tools h2 {
   text-align: center;
   color: #424280;
   padding: 20px 0 20px 0;
 }
 
 
- #tools article { 
+ #bff-tools article { 
   width: 30%;
   margin: 30px 
 }
 
 
-#tools .tools-icons{ 
+#bff-tools .bff-tools-icons{ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1093,20 +1106,20 @@ font-weight: 500;
   
 }
 
-#tools i {
+#bff-tools i {
   font-size: 3em;
   margin-bottom: 40px;
   color: #424144;
 }
 
-#tools p {
+#bff-tools p {
   text-align: center;
   margin: 0;
 }
 
 
 
-.tools-sec-button{
+.bff-tools-sec-button{
   display:  flex;
   justify-content: center;
   align-items: center;
@@ -1118,7 +1131,7 @@ font-weight: 500;
 }
 
 
-#tools a{
+#bff-tools a{
     background-color: #424280;
     padding: 20px 50px 20px 50px;
     text-align: center;
@@ -1417,6 +1430,31 @@ nav ul li a {
 }
 
 
+
+/****************** HOMEPAGE - TABLET - TOOLS SECTION ************/
+
+
+
+#tools article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  flex-basis: 20%;
+}
+
+
+#tools .bff-tool-description {
+  width: 45%;
+}
+
+
+#tools i{
+margin-bottom: 25px;
+}
+
+
+
 /******************************** HOMEPAGE - TABLET - ABOUT SECTION *******************************/
 
 #about .about-sec-general{
@@ -1573,11 +1611,11 @@ footer .copyright{
 }
 
 
-/****************** BFF PROJECT PAGE - TABLET - TOOLS SECTION ************/
+/****************** BFF PROJECT PAGE - TABLET - PROJECT TOOLS SECTION ************/
 
 
 
-#tools article {
+#bff-tools article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1586,12 +1624,12 @@ footer .copyright{
 }
 
 
-#tools .tool-description {
+#bff-tools .bff-tool-description {
   width: 45%;
 }
 
 
-#tools i{
+#bff-tools i{
 margin-bottom: 25px;
 }
 
@@ -1715,7 +1753,7 @@ header{
   max-width:  960px;
 }
 
-/******************************** Desktop - Hero area ************************************/
+/******************************** HOMEPAGE - DESKTOP - HERO AREA ************************************/
 
 
 .hero-area{
@@ -1766,8 +1804,14 @@ header{
   width:  100%;
 }
 
+/*********************************** HOMEPAGE - DESKTOP - TOOLS SECTION *******************************/
 
-/******************************** HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
+#tools article {
+  flex-basis: 17%;
+  }
+  
+
+/************************************ HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
 
 
 .about-sec-general{
@@ -1857,9 +1901,9 @@ aside {
   font-size: 1.75em;
 }
 
-/****************** BFF CASE STUDY PAGE - DESKTOP - TOOLS SECTION ************/
+/****************** BFF CASE STUDY PAGE - DESKTOP - PROJECT TOOLS SECTION ************/
 
-#tools article {
+#bff-tools article {
 flex-basis: 17%;
 }
 
