@@ -503,11 +503,11 @@ footer .copyright{
 }
 
 
-/******************** HOMEPAGE - MOBILE - PRAISE SECTION *********************/
+/******************** HOMEPAGE - MOBILE - ACCOMPLISHMENTS SECTION *********************/
 
 
 
-#praise {
+#accomplishments {
   background-color: #ffffff;
   min-height: 300px;
   display: flex;
@@ -517,28 +517,53 @@ footer .copyright{
 }
 
 
-#praise .content-wrapper{
+#accomplishments .content-wrapper{
   width:  80%;
 }
 
-#praise h2 {
+#accomplishments h2 {
   text-align: center;
   color: #424280;
 }
 
 
-#praise p { 
-  color: #424144;
-  font-size: 1.25em;
-  line-height: 1.5em;
-  font-weight: 300;
+.accomplishments-list{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%
+};
+
+#accomplishments ul{
+  display:  flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 0 0 100px;
+  padding: 0 0 0 10px;
+  width: 100%; 
 }
 
-#praise h4{
-text-align: right;
-font-weight: 200;
-color: #424144;
- 
+#accomplishments ul li{
+  width:  100%;
+  margin:  10px 0px 40px 0px;
+  padding: 0 0 0 0px;
+  font-weight: 200;
+  font-size: 1.25em;
+  text-align: left;
+  list-style: none;
+  list-style-position: outside;
+  color:  #424144;
+  line-height: 1.33em;
+  position: relative;
+  
+}
+
+.fa-light {
+  font-size: 1.5em;
+  padding-top: .25em;
+  padding-right: .25em; /* Adjust the value as needed */
 }
 
 /******************** HOMEPAGE - MOBILE - TOOLS SECTION *********************/
@@ -1515,7 +1540,7 @@ footer .contact, .social, .meet-me {
  }
 
 footer .social-icons {
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-end;
   line-height: 0;
   padding-top: 10px;
@@ -1526,6 +1551,7 @@ footer .social-icons p {
   display:  flex;
   justify-content: center;
   align-items: flex-end;
+  margin: 0 .5em;
 
 }
 
