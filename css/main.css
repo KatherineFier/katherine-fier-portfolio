@@ -213,7 +213,7 @@ header, footer {
 
 header{
   background-color: #ffffff;
-  padding:  30px 0;
+  padding:  2em 0 1em 0;
 }
 
 header .content-wrapper{
@@ -241,21 +241,17 @@ header nav {
   font-size:  1.125em;
   font-weight:  700;
   text-transform: uppercase;
-  display: flex;
   justify-content:  space-around;
-  align-items:  center;
-  flex-flow: row wrap;
 }
 
 header nav ul{
   width:  100%;
-  display:  flex;
-  justify-content: space-around;
   list-style-type: none;
 }
 
 nav ul li{
-  display:  flex;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 nav ul li a {
@@ -267,15 +263,6 @@ nav ul li a {
   text-decoration: none;
   letter-spacing: 2px; 
 }
-
-nav ul li a span{
-    padding: 5px 10px;
-    border: solid #424280 2px;
-    width:130px;
-    text-align: center;
-
-}
-
 
 /****** BASE FOOTER STYLES ******/
 
@@ -1298,12 +1285,46 @@ header .content-wrapper{
 
 .logo{
   font-size: .85em;
-  width:  40%;
+  width: 40%;
 }
 
 header nav {
   width:  50%;
+  /* display: flex;
+  justify-content:  space-around;
+  align-items: center;
+  flex-flow: row wrap; */
 }
+
+header nav ul{
+  width:  100%;
+  display:  flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav ul li{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+nav ul li a {
+  font-family: 'Lato', sans-serif;
+  font-size: .7em;
+  color: #424280;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px; 
+}
+
+nav ul li a span{
+    padding: 5px 10px;
+    border: solid #424280 2px;
+    width:130px;
+    text-align: center;
+}
+
 
 header nav ul{
   justify-content: space-between;
@@ -1345,12 +1366,10 @@ nav ul li a {
 /******************************** HOMEPAGE - TABLET - PORTFOLIO SECTION *******************************/
 
 
-
 #portfolio {
   min-height: 500px;
   display:  flex;  
 }
-
 
 #portfolio .content-wrapper {
   width:  70%;
@@ -1364,8 +1383,6 @@ nav ul li a {
   align-items: flex-start;
 }
 
-
-
 .portfolio-piece {
   display:  flex;
   
@@ -1375,22 +1392,13 @@ nav ul li a {
   text-align: left;
 }
 
-
-
-
-
 /******************************** HOMEPAGE - TABLET - PRAISE - SECTION*******************************/
-
 
 #praise p { 
   line-height: 1.75em;
 }
 
-
-
 /****************** HOMEPAGE - TABLET - TOOLS SECTION ************/
-
-
 
 #tools article {
   display: flex;
@@ -1400,17 +1408,13 @@ nav ul li a {
   flex-basis: 20%;
 }
 
-
 #tools .bff-tool-description {
   width: 45%;
 }
 
-
 #tools i{
 margin-bottom: 25px;
 }
-
-
 
 /******************************** HOMEPAGE - TABLET - ABOUT SECTION *******************************/
 
@@ -1437,8 +1441,6 @@ margin-bottom: 25px;
   font-size: 2em;
 }
 
-
-
 /******************************** HOMEPAGE - TABLET - FOOTER STYLES *******************************/
 
 
@@ -1446,13 +1448,11 @@ footer .content-wrapper {
   width:  100%;
 }
 
-
 footer .footer-content {
   display: flex;
   flex-direction: row;
   justify-content:  space-between;
   align-items: flex-start;
-  
 }
 
 footer h2 {
@@ -1462,9 +1462,7 @@ footer h2 {
 footer .contact, .social, .meet-me {
   margin:  0;
   width:  33%;
-
 }
-
 
  footer .social {
   min-height: 153px;
@@ -1477,13 +1475,11 @@ footer .social-icons {
   padding-top: 10px;
 }
 
-
 footer .social-icons p {
   display:  flex;
   justify-content: center;
   align-items: flex-end;
   margin: 0 .5em;
-
 }
 
 footer p {
@@ -1497,7 +1493,6 @@ footer a {
 
 footer a i{
   margin:  0px;
-
 }
 
 footer .copyright{
@@ -1505,13 +1500,9 @@ footer .copyright{
 }
 
 
-
-
 /* ==========================================================================
    BFF Project Page - Tablet Styles
    ========================================================================== */
-
-
 
 
 #bff-header nav {
@@ -1528,8 +1519,6 @@ footer .copyright{
 #bff-header ul{
   width:  100%;
 }
-
-
 
 /****************** BFF PROJECT PAGE - TABLET - HERO SECTION ************/
 
@@ -1552,26 +1541,18 @@ footer .copyright{
 }
 
 
-
 .down-arrow{
   margin-top: 45px;
 }
 
-
-
-
 /****************** BFF PROJECT PAGE - TABLET - OVERVIEW SECTION ************/
-
 
 #overview p { 
   line-height: 1.5em;
   font-size: 1.6em;
 }
 
-
 /****************** BFF PROJECT PAGE - TABLET - PROJECT TOOLS SECTION ************/
-
-
 
 #bff-tools article {
   display: flex;
@@ -1581,26 +1562,20 @@ footer .copyright{
   flex-basis: 20%;
 }
 
-
 #bff-tools .bff-tool-description {
   width: 45%;
 }
 
-
 #bff-tools i{
 margin-bottom: 25px;
 }
-
-
 /****************** BFF PROJECT PAGE - TABLET - PROCESS (AKA RESULTS) SECTION ************/
-
 
 #results aside{
   margin:  60px 0 0 0;
   width: 100%;
   min-height: 600px;
 }
-
 
 .results-heading{  
   margin-top: 50px;
@@ -1613,7 +1588,6 @@ margin-bottom: 25px;
   text-align: center;
 }
 
-
 #results ul li{
   margin-top: 20px;
   color:  #424144;
@@ -1623,11 +1597,9 @@ margin-bottom: 25px;
   color: #424144;
 }
 
-
 #results p{
   font-size: 1.75em;
 }
-
 
 .results-list-background{
   padding:  30px 0 20px 0;
@@ -1642,10 +1614,7 @@ margin-bottom: 25px;
   line-height: 1.6em;
 }
 
-
 /****************** BFF CASE STUDY PAGE - TABLET - CONCLUSION SECTION ************/
-
-
 
 #conclusion .content-wrapper{
   display:  flex;
@@ -1655,7 +1624,6 @@ margin-bottom: 25px;
   width: 80%;
 }
 
-
 .conclusion-list{
   display:  flex;
   flex-flow: row wrap;
@@ -1663,7 +1631,6 @@ margin-bottom: 25px;
   justify-content: center;
   width: 100%;
 }
-
 
 #conclusion ul{
   display:  flex;
@@ -1683,11 +1650,6 @@ margin-bottom: 25px;
   
 }
 
-
-}
-
-
-
 /*==========================================================================
                       DESKTOP MEDIA QUERY
 ===========================================================================*/
@@ -1701,7 +1663,6 @@ margin-bottom: 25px;
 h5{
   font-size: 3em;
 }
-
 
 header{
   padding: 20px 0;
@@ -1752,11 +1713,9 @@ header{
   padding-bottom: 10px;
 }
 
-
 .portfolio-piece{
   width:  45%;
 }
-
 
 .portfolio-description-sub-heading{
   width:  100%;
@@ -1768,7 +1727,6 @@ header{
   flex-basis: 17%;
   }
   
-
 /************************************ HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
 
 
@@ -1830,7 +1788,6 @@ aside {
   margin-bottom: 0px;
 }
 
-
 .bff-hero-area h1 { 
   line-height: 1.75;
   margin-top: 120px;
@@ -1842,13 +1799,9 @@ aside {
   font-weight: 400;
 }
 
-
 .down-arrow{
   margin-top: 50px;
 }
-
-
-
 
 /****************** BFF CASE STUDY PAGE - DESKTOP - OVERVIEW SECTION ************/
 
@@ -1861,14 +1814,10 @@ aside {
 /****************** BFF CASE STUDY PAGE - DESKTOP - PROJECT TOOLS SECTION ************/
 
 #bff-tools article {
-flex-basis: 17%;
+  flex-basis: 17%;
 }
 
-
-
 /****************** BFF CASE STUDY PAGE - DESKTOP - RESULTS SECTION ************/
-
-
 
 
 .results-first-half-width, .results-sec-half-width{
@@ -1876,11 +1825,9 @@ flex-basis: 17%;
   justify-content: center;
 }
 
-
 .results-list-background{
   padding:  40px 0 20px 0;
 }
-
 
 #results ul li{
   margin-top:  10px;
@@ -1892,9 +1839,6 @@ flex-basis: 17%;
 
 
 /****************** BFF CASE STUDY PAGE - DESKTOP - CONCLUSION SECTION ************/
-
-
-
 
 
 /*
