@@ -370,20 +370,7 @@ footer .copyright{
 }
 
 
-.down-arrow {
-  display:  flex;
-  justify-content: center;
-  font-size: 3em;
-  margin-bottom: 0;
-  margin-top: 50px;
-  width:  100%;
- }
-
-
-
 /******************** HOMEPAGE - MOBILE - ACCOMPLISHMENTS SECTION *********************/
-
-
 
 #accomplishments {
   background-color: #ffffff;
@@ -445,7 +432,6 @@ footer .copyright{
   display:  flex;
   justify-content:  center;
   padding-bottom: 30px;
-  
 }
 
 .portfolio-pieces{
@@ -463,12 +449,10 @@ footer .copyright{
   text-align: left;
 }
 
-
 .portfolio-image{
   width:  100%;
   margin-bottom:  40px;
 }
-
 
 #portfolio p { 
   color: #424144;
@@ -481,18 +465,15 @@ footer .copyright{
   font-weight: 300;
 }
 
-
 #portfolio h2{
   text-align: center;
   color: #424144;
 }
 
-
 #portfolio h3{
   margin-bottom:  10px;
   width:  100%;
 }
-
 
 .portfolio-description-sub-heading{
   font-weight: 500;
@@ -502,7 +483,6 @@ footer .copyright{
   text-transform: uppercase;
   font-size: .85em;
 }
-
 
 .portfolio-description-sub-heading span{
   padding-bottom: 100px;
@@ -544,7 +524,6 @@ footer .copyright{
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  align-items: center;
   background-color:  #f2ebfb;
   min-height: 350px;
   padding-bottom: 30px;
@@ -596,7 +575,6 @@ footer .copyright{
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px;
-  justify-content: center;
 }
 
 
@@ -609,14 +587,10 @@ footer .copyright{
     font-weight: 300;
     font-size: 1.15em;
     margin-top: 35px;
-   font-family: Lato, sans-serif;
-   font-weight: 300;
 }
 
 
 /************************** HOMEPAGE - MOBILE - ABOUT ***********************/
-
-
 
 #about {
   background-color: #ffffff;
@@ -630,7 +604,6 @@ footer .copyright{
 #about .content-wrapper{
   width:  80%;
 }
-
 
 #about h2 {
   color:  #424280;
@@ -658,16 +631,6 @@ footer .copyright{
   font-size: .5em;
 }
 
-/* #accomplishments ul{
-  display:  flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 0 0 0 100px;
-  padding: 0 0 0 10px;
-  width: 100%; 
-} */
-
 #about li{
   display: flex;
   align-items: center; 
@@ -683,18 +646,13 @@ footer .copyright{
   position: relative;
 }
 
-
 #about .about-sec-intro{
   width:  100%;
   font-weight: 200;
   font-size: 1.75em;
 }
 
-
-
 /************************** HOMEPAGE - MOBILE - OFFERINGS ***********************/
-
-
 
 #offerings {
   background-color: #ffffff;
@@ -716,7 +674,6 @@ footer .copyright{
   text-align: center;
   margin-bottom: 50px;
   font-family: Lato, sans-serif;
-  text-align: center;
 }
 
 #offerings .site-visitor-question-background{
@@ -731,7 +688,6 @@ footer .copyright{
  width:  100%;
  justify-content: center;
  align-items: center;
-
 }
 
 
@@ -752,7 +708,6 @@ footer .copyright{
   border-style: solid;
   border-color: #8d8dc9;
   text-align: center;
-
 }
 
 #offerings h3{
@@ -806,7 +761,6 @@ footer .copyright{
 }
 
 
-
 /******************** BFF CASE STUDY PAGE - MOBILE - HERO AREA *******************/
 
 /************************  HOMEPAGE - MOBILE - HERO AREA *****************/
@@ -834,22 +788,11 @@ footer .copyright{
   font-size: 3.75em;
   width: 80%;
   margin-top: 60px;
+  font-weight: 600;
 }
 
 
-/*******.down-arrow{
-  display:  flex;
-  justify-content: center;
-  font-size: 3em;
-  margin-bottom: 0;
-  margin-top: 50px;
-  width:  100%;
- }******/
-
-
-
 /***************** BFF CASE STUDY  PAGE - MOBILE - OVERVIEW SECTION ************/
-
 
 
 #overview {
@@ -871,9 +814,7 @@ footer .copyright{
   text-align: center;
   color: #424280;
   padding-bottom: 10px;
-
 }
-
 
 #overview p { 
   color: #424144;
@@ -893,13 +834,10 @@ font-weight: 500;
 }
 
 
+/******************** BFF CASE STUDY PAGE - MOBILE - CASE STUDY PROCESS/PROCESS SECTION *********************/
 
 
-/******************** BFF CASE STUDY PAGE - MOBILE - CASE STUDY PROCESS/RESULTS SECTION *********************/
-
-
-
-#results {
+#process {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -908,33 +846,30 @@ font-weight: 500;
   padding-bottom: 60px;
 }
 
-#results .content-wrapper{
+#process .content-wrapper{
   width:  80%;
 }
 
-
-#results h2 {
+#process h2 {
   color:  #424280;
   text-align: center;
   margin-bottom: 50px;
 }
 
-
-#results p { 
+#process p {
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.5em;
   color: #424144;
 }
 
-
-.results-sec-half-width{
+.process-sec-half-width{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-.results-list-background{
+.process-list-background{
   background-color:  #f2ebfb;
   display: flex;
   flex-flow: row wrap;
@@ -944,7 +879,7 @@ font-weight: 500;
 
 }
 
-.results-list{
+.process-list{
   width: 75%;
   background-color: #f2ebfb;
   display: flex;
@@ -953,7 +888,7 @@ font-weight: 500;
   min-height: 300px;
 }
 
-#results aside{
+#process aside{
   margin:  60px 0 0 0;
   padding:  20px 10px 35px 10px;
   width: 100%;
@@ -966,10 +901,9 @@ font-weight: 500;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-
 }
 
-.results-heading{
+.process-heading{
   background-color: #f7f7f7;
   height: 100px;
   width:  85%;
@@ -978,11 +912,10 @@ font-weight: 500;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  
 }
 
 
-#results h3{
+#process h3{
   color: #424280;
   text-align: center;
   font-weight: 400;
@@ -991,7 +924,7 @@ font-weight: 500;
   margin:  0;
 }
 
-#results ul{
+#process ul{
   display:  flex;
   flex-flow: row wrap;
   align-items: flex-start;
@@ -1000,7 +933,7 @@ font-weight: 500;
   width: 100%; 
 }
 
-#results ul li{
+#process ul li{
   width:  100%;
   margin-top:  10px;
   margin-bottom: 5px;
@@ -1013,7 +946,7 @@ font-weight: 500;
   color:  #424144;
 }
 
-#results .results-section-button{
+#process .process-section-button{
   display:  flex;
   justify-content: center;
   align-items: center;
@@ -1021,12 +954,11 @@ font-weight: 500;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px;
-  justify-content: center;
   margin:  50px 0 0 0;
 }
 
 
-#results a{
+#process a{
     background-color: #424280;
     padding: 20px 50px 20px 50px;
     text-align: center;
@@ -1035,11 +967,7 @@ font-weight: 500;
     font-weight: 300;
     font-size: 1.15em;
     margin-top: 35px;
-   font-family: Lato, sans-serif;
-   font-weight: 300;
 }
-
-
 
 /******************** BFF CASE STUDY PAGE - MOBILE - TOOLS SECTION *********************/
 
@@ -1049,7 +977,6 @@ font-weight: 500;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  align-items: center;
   background-color:  #f2ebfb;
   min-height: 350px;
   padding-bottom: 30px;
@@ -1066,19 +993,16 @@ font-weight: 500;
   padding: 20px 0 20px 0;
 }
 
-
  #bff-tools article { 
   width: 30%;
   margin: 30px 
 }
-
 
 #bff-tools .bff-tools-icons{ 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  
 }
 
 #bff-tools i {
@@ -1093,7 +1017,6 @@ font-weight: 500;
 }
 
 
-
 .bff-tools-sec-button{
   display:  flex;
   justify-content: center;
@@ -1102,7 +1025,6 @@ font-weight: 500;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px;
-  justify-content: center;
 }
 
 
@@ -1115,8 +1037,6 @@ font-weight: 500;
     font-weight: 300;
     font-size: 1.15em;
     margin-top: 35px;
-   font-family: Lato, sans-serif;
-   font-weight: 300;
 }
 
 /******************** BFF CASE STUDY PAGE - MOBILE - CHALLENGES SECTION *********************/
@@ -1127,7 +1047,6 @@ font-weight: 500;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  align-items: center;
   background-color: #f2ebfb;
   min-height: 350px;
   padding-bottom: 30px;
@@ -1152,11 +1071,9 @@ font-weight: 500;
   margin: 0 0 30px 0;
 }
 
+/************************ BFF CASE STUDY PAGE - MOBILE - RESULTS SECTION *********************/
 
-
-/************************ BFF CASE STUDY PAGE - MOBILE - CONCLUSION SECTION *********************/
-
-#conclusion {
+#results {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -1165,7 +1082,7 @@ font-weight: 500;
   padding-bottom: 60px;
 }
 
-#conclusion .content-wrapper{
+#results .content-wrapper{
   width:  80%;
   display:  flex;
   flex-flow: row wrap;
@@ -1173,43 +1090,42 @@ font-weight: 500;
   justify-content: center;
 }
 
-#conclusion h2 {
+#results h2 {
   color:  #424280;
   text-align: center;
   margin-bottom: 50px;
 }
 
-
-#conclusion p { 
+#results p {
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5em;
   color: #424144;
 }
 
-.conclusion-list{
+.results-list{
   display:  flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  width: 85%
-};
+  width: 85%;
+}
 
-#conclusion ul{
+#results ul{
   display:  flex;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 0;
   padding: 0 0 0 10px;
-  width: 100%; 
+  width:75%;
 }
 
-#conclusion ul li{
+#results ul li{
   width:  100%;
   margin:  10px 0px 20px 0px;
   padding: 0 0 0 0px;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 1.25em;
   text-align: left;
   list-style: none;
@@ -1217,11 +1133,9 @@ font-weight: 500;
   color:  #424144;
   line-height: 1.33em;
   position: relative;
-  
 }
 
-
-.conclusion-section-button{
+.results-section-button{
   display:  flex;
   justify-content: center;
   align-items: center;
@@ -1229,12 +1143,10 @@ font-weight: 500;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px;
-  justify-content: center;
   margin:  10px 0 0 0;
 }
 
-
-#conclusion a{
+#results a{
     background-color: #424280;
     padding: 20px 50px 20px 50px;
     text-align: center;
@@ -1243,12 +1155,10 @@ font-weight: 500;
     font-weight: 300;
     font-size: 1.15em;
     margin-top: 35px;
-   font-family: Lato, sans-serif;
-   font-weight: 300;
 }
 
 
-.conclusion-button{
+.results-button{
   display:  flex;
   justify-content: center;
   align-items: center;
@@ -1256,7 +1166,6 @@ font-weight: 500;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px;
-  justify-content: center;
 }
 
 
@@ -1272,73 +1181,6 @@ font-weight: 500;
 .content-wrapper{
   max-width:  700px;
 }
-
-header { 
-  justify-content: space-around;
-  padding:  35px 0;
-}
-
-header .content-wrapper{
-  width:  100%;
-  justify-content:  space-between;
-}
-
-.logo{
-  font-size: .85em;
-  width: 40%;
-}
-
-header nav {
-  width:  50%;
-  /* display: flex;
-  justify-content:  space-around;
-  align-items: center;
-  flex-flow: row wrap; */
-}
-
-header nav ul{
-  width:  100%;
-  display:  flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-nav ul li{
-  text-align: center;
-  margin-bottom: 0;
-}
-
-nav ul li a {
-  font-family: 'Lato', sans-serif;
-  font-size: .7em;
-  color: #424280;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 2px; 
-}
-
-nav ul li a span{
-    padding: 5px 10px;
-    border: solid #424280 2px;
-    width:130px;
-    text-align: center;
-}
-
-
-header nav ul{
-  justify-content: space-between;
-}
-
-nav ul li a {
-  font-size: .75em;
-  font-weight: 600;
-}
-
-.header-divider{
-  display: none;
-}
-
 
 /******************************** HOMEPAGE - TABLET - HERO - AREA************************************/
 
@@ -1358,11 +1200,6 @@ nav ul li a {
   padding-top: 25px;
 }
 
-
-.down-arrow{
-  margin-top: 45px;
-}
-
 /******************************** HOMEPAGE - TABLET - PORTFOLIO SECTION *******************************/
 
 
@@ -1373,7 +1210,6 @@ nav ul li a {
 
 #portfolio .content-wrapper {
   width:  70%;
-
 }
 
 .portfolio-pieces {
@@ -1569,39 +1405,38 @@ footer .copyright{
 #bff-tools i{
 margin-bottom: 25px;
 }
-/****************** BFF PROJECT PAGE - TABLET - PROCESS (AKA RESULTS) SECTION ************/
+/****************** BFF PROJECT PAGE - TABLET - PROCESS SECTION ************/
 
-#results aside{
+#process aside{
   margin:  60px 0 0 0;
   width: 100%;
   min-height: 600px;
 }
 
-.results-heading{  
+.process-heading{
   margin-top: 50px;
 }
 
-#results h3{
+#process h3{
   color: #424280;
   font-weight: 400;
   font-size: 1.4em;
   text-align: center;
 }
 
-#results ul li{
+#process ul li{
   margin-top: 20px;
   color:  #424144;
   font-weight: 300;
   font-size: 1.25em;
-  padding-left:  50px; 
-  color: #424144;
+  padding-left:  50px;
 }
 
-#results p{
+#process p{
   font-size: 1.75em;
 }
 
-.results-list-background{
+.process-list-background{
   padding:  30px 0 20px 0;
 }
 
@@ -1614,9 +1449,9 @@ margin-bottom: 25px;
   line-height: 1.6em;
 }
 
-/****************** BFF CASE STUDY PAGE - TABLET - CONCLUSION SECTION ************/
+/****************** BFF CASE STUDY PAGE - TABLET - RESULTS SECTION ************/
 
-#conclusion .content-wrapper{
+#results .content-wrapper{
   display:  flex;
   flex-flow: row wrap;
   align-items: center;
@@ -1624,7 +1459,7 @@ margin-bottom: 25px;
   width: 80%;
 }
 
-.conclusion-list{
+.results-list{
   display:  flex;
   flex-flow: row wrap;
   align-items: center;
@@ -1632,20 +1467,20 @@ margin-bottom: 25px;
   width: 100%;
 }
 
-#conclusion ul{
+#results ul{
   display:  flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   margin: 0 0 0px 50px;
   padding: 0 0px 0 10px;
-  width: 100%; 
+  width: 75%;
 }
 
-#conclusion ul li{
+#results ul li{
   width: 100%;
-  font-weight: 300;
-  font-size: 1.75em;
+  font-weight: 200;
+  font-size: 1.5em;
   padding-bottom: 20px;
   
 }
@@ -1655,190 +1490,209 @@ margin-bottom: 25px;
 ===========================================================================*/
 
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
 
-/******************************* Desktop Base styles here *****************************/
-
-
-h5{
-  font-size: 3em;
-}
-
-header{
-  padding: 20px 0;
-}
-
-.content-wrapper {
-  max-width:  960px;
-}
-
-/******************************** HOMEPAGE - DESKTOP - HERO AREA ************************************/
-
-
-.hero-area{
-  background: url('../img/header-background-image.png');
-  background-size: cover;
-  background-position: 20% 20%;
-  min-height:  700px;
-  justify-content: center;
-}
-
-.hero-area .content-wrapper{
-  margin-bottom: 0px;
-}
-
-
-.hero-area h1 { 
-  margin-top: 50px;
-  margin-right: 200px;
-  letter-spacing: 1.5px;
-  font-size: 3em;
-  width:  54%;
-}
-
-
-.down-arrow{
-  margin-top: 50px;
-}
-
-
-/******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/
-
-
-#portfolio .content-wrapper{
-  width:  100%;
-}
-
-#portfolio h2{
-  padding-bottom: 10px;
-}
-
-.portfolio-piece{
-  width:  45%;
-}
-
-.portfolio-description-sub-heading{
-  width:  100%;
-}
-
-/*********************************** HOMEPAGE - DESKTOP - TOOLS SECTION *******************************/
-
-#tools article {
-  flex-basis: 17%;
-  }
-  
-/************************************ HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
-
-
-.about-sec-general{
-  display:  flex;
-  justify-content: flex-start;
-}
-
-aside {
-  margin:  60px 20px 20px 0;
-  width: 30%;
-}
-
-
-#about li{
-  width:  90%;
-  margin-left: 60px; 
-  font-size: 1.25em;
-}
-
-#about .about-sec-intro{
-  width:  100%;
-  font-weight: 200;
-  font-size: 2em;
-}
-
-
-/* ==========================================================================
-   BFF CASE STUDY Page - Desktop Styles
-   ========================================================================== */
-
-
-#bff-header nav {
-  width:  35%;
-  font-size:  1.125em;
-  font-weight:  700;
-  text-transform: uppercase;
-  display: flex;
-  justify-content:  space-evenly;
- }
-
-
-#bff-header ul{
-  justify-content: space-around;
+  /******************************* Desktop Base styles here *****************************/
+  h5 {
+    font-size: 3em;
   }
 
-/****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+  header {
+    justify-content: space-around;
+    padding:  35px 0;
+  }
+
+  header .content-wrapper{
+    width:  100%;
+    justify-content:  space-between;
+  }
+
+  .logo{
+    font-size: .85em;
+    width: 40%;
+  }
+
+  header nav {
+    width:  50%;
+  }
+
+  header nav ul{
+    width:  100%;
+    display:  flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  nav ul li{
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: .75em;
+    color: #424280;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+
+  nav ul li a span{
+      padding: 5px 10px;
+      border: solid #424280 2px;
+      width:130px;
+      text-align: center;
+  }
+
+  .header-divider{
+    display: none;
+  }
+
+  /******************************** HOMEPAGE - DESKTOP - HERO AREA ************************************/
+  .hero-area {
+    background: url('../img/header-background-image.png');
+    background-size: cover;
+    background-position: 20% 20%;
+    min-height: 700px;
+    justify-content: center;
+  }
+
+  .hero-area .content-wrapper {
+    margin-bottom: 0px;
+  }
+
+  .hero-area h1 {
+    margin-top: 50px;
+    margin-right: 200px;
+    letter-spacing: 1.5px;
+    font-size: 3em;
+    width: 54%;
+  }
+
+  /******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/
+  #portfolio .content-wrapper {
+    width: 100%;
+  }
+
+  #portfolio h2 {
+    padding-bottom: 10px;
+  }
+
+  .portfolio-piece {
+    width: 45%;
+  }
+
+  .portfolio-description-sub-heading {
+    width: 100%;
+  }
+
+  /*********************************** HOMEPAGE - DESKTOP - TOOLS SECTION *******************************/
+  #tools article {
+    flex-basis: 17%;
+  }
+
+  /************************************ HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
+  .about-sec-general {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  aside {
+    margin: 60px 20px 20px 0;
+    width: 30%;
+  }
+
+  #about li {
+    width: 90%;
+    margin-left: 60px;
+    font-size: 1.25em;
+  }
+
+  #about .about-sec-intro {
+    width: 100%;
+    font-weight: 200;
+    font-size: 2em;
+  }
 
 
-.bff-hero-area{
-  background: url('../img/bff-hero-image.png');
-  background-size: cover;
-  background-position: 30% 70%;
-  min-height:  700px;
-  justify-content: center;
+  /* ==========================================================================
+     BFF CASE STUDY Page - Desktop Styles
+     ========================================================================== */
+  #bff-header nav {
+    width: 35%;
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+  #bff-header ul {
+    justify-content: space-around;
+  }
+
+  /****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
+  .bff-hero-area {
+    background: url('../img/bff-hero-image.png');
+    background-size: cover;
+    background-position: 30% 70%;
+    min-height: 700px;
+    justify-content: center;
+  }
+
+  .bff-hero-area .content-wrapper {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .bff-hero-area h1 {
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    letter-spacing: 1.5px;
+    width: 100%;
+    font-weight: 800;
+  }
+
+  /****************** BFF CASE STUDY PAGE - DESKTOP - OVERVIEW SECTION ************/
+  #overview p {
+    line-height: 1.5em;
+    font-size: 1.75em;
+  }
+
+  /****************** BFF CASE STUDY PAGE - DESKTOP - PROJECT TOOLS SECTION ************/
+  #bff-tools article {
+    flex-basis: 17%;
+  }
+
+  /****************** BFF CASE STUDY PAGE - DESKTOP - PROCESS SECTION ************/
+  .process-first-half-width, .process-sec-half-width {
+    display: flex;
+    justify-content: center;
+  }
+
+  .process-list-background {
+    padding: 40px 0 20px 0;
+  }
+
+  #process ul li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0 0 0 20px;
+    font-weight: 300;
+    font-size: 1.25em;
+  }
 }
 
-.bff-hero-area .content-wrapper{
-  margin-bottom: 0px;
-}
 
-.bff-hero-area h1 { 
-  line-height: 1.75;
-  margin-top: 120px;
-  margin-right: 0px;
-  padding: 0px;
-  letter-spacing: 1.5px;
-  font-size: 3em;
-  width:  100%;
-  font-weight: 400;
-}
-
-.down-arrow{
-  margin-top: 50px;
-}
-
-/****************** BFF CASE STUDY PAGE - DESKTOP - OVERVIEW SECTION ************/
-
-
-#overview p { 
-  line-height: 1.5em;
-  font-size: 1.75em;
-}
-
-/****************** BFF CASE STUDY PAGE - DESKTOP - PROJECT TOOLS SECTION ************/
-
-#bff-tools article {
-  flex-basis: 17%;
-}
-
-/****************** BFF CASE STUDY PAGE - DESKTOP - RESULTS SECTION ************/
-
-
-.results-first-half-width, .results-sec-half-width{
-  display:  flex;
-  justify-content: center;
-}
-
-.results-list-background{
-  padding:  40px 0 20px 0;
-}
-
-#results ul li{
-  margin-top:  10px;
-  margin-bottom: 5px;
-  padding: 0 0 0 20px;
-  font-weight: 300;
-  font-size: 1.25em;
-}
-
-
-/****************** BFF CASE STUDY PAGE - DESKTOP - CONCLUSION SECTION ************/
+/****************** BFF CASE STUDY PAGE - DESKTOP RESULTS SECTION ************/
 
 
 /*
@@ -2009,5 +1863,5 @@ aside {
   h3 {
     page-break-after: avoid;
   }
-}
+}}
 
