@@ -128,7 +128,20 @@ h1 {
   font-weight: 400;
   }
 
+  .header-underline {
+    text-decoration: underline;
+    text-decoration-thickness: .25em;
+    text-underline-offset: .25em;
+  }
 
+  .header-bold {
+    font-weight: 700;
+  }
+
+  .last-word {
+    display: block;
+    margin-top: .15em;
+  }
 
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -459,7 +472,20 @@ footer .copyright{
   text-align: left;
   margin:  0;
 }
+.portfolio-piece-genre{
+  background-color: hsla(265, 76%, 77%, 0.33);
+  color: #67666b;
+  padding: 5px 10px;
+  border-radius: .25em;
+  font-size: .85em;
+  font-weight: 500;
+  margin-top: .5em;
+}
 
+.portfolio-sec-label{
+  text-decoration: underline;
+  font-weight: 500;
+}
 .project-tools{
   font-size: .85em;
   font-weight: 300;
@@ -1571,7 +1597,8 @@ margin-bottom: 25px;
     margin-right: 200px;
     letter-spacing: 1.5px;
     font-size: 3em;
-    width: 54%;
+    width: 65%;
+    line-height: 1.6em;
   }
 
   /******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/

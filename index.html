@@ -62,7 +62,9 @@
     <main>
         <section class="hero-area">
             <div class="content-wrapper">
-                <h1> Hi! I'm Katherine, a Software Developer with back-end, front-end, web and mobile experience based in Boulder, CO.</h1>
+                <h1> Hi! I'm Katherine,</br>
+                     an <span class="header-bold">AI Engineer</span> with<br>
+                     full-stack <span class="header-underline">development</span> and <span class="header-underline">marketing</span> <span class="last-word">experience.</span></h1>
                 <!-- <div class="down-arrow">
                     <a href="#portfolio">
                         <i class="fal fa-chevron-down"></i>
@@ -75,9 +77,10 @@
                 <h2>Accomplishments</h2>
                 <div class="accomplishments-list">
                     <ul class="fa-ul" style="--fa-li-width: 1em;">
-                        <li><span class="fa-li" style="--fa-li-width: 4em;"><i class="fa-light fa-check"></i></span>Worked in four tech stacks and delivered up to three user stories per day my first year writing production software</li>
-                        <li><span class="fa-li" style="--fa-li-width: 4em;"><i class="fa-light fa-check"></i></span>Completed a 6-month Software Engineering Internship, leading to a full-time Software Developer role</li>    
-                        <li><span class="fa-li" style="--fa-li-width: 4em;"><i class="fa-light fa-check"></i></span>Established a new brand and grew revenue stream by multiples while completing a front-end development program, learning HTML, CSS, and JavaScript</li>
+                        <li><span class="fa-li" style="--fa-li-width: 4em;"><i class="fa-light fa-check"></i></span>Built an AI-powered marketing assistant and web application for an e-commerce business that uses a proprietary data layer and natural language processing to develop channel-specific marketing deliverables</li>
+                        <!-- <li><span class="fa-li" style="--fa-li-width: 4em;"><i class="fa-light fa-check"></i></span>Built an AI-powered chatbot for a medical device company that uses natural language processing to answer questions about the product</li> -->
+                        <li><span class="fa-li" style="--fa-li-width: 4em;"><i class="fa-light fa-check"></i></span>Completed a front-end developer program and landed a full-stack engineering role where I delivered up to 5 user stories per week, practiced back-end development, and worked in 5 languages and 4 stacks my first year writing production software</li>
+                        <li><span class="fa-li" style="--fa-li-width: 4em;"><i class="fa-light fa-check"></i></span>Trained and led a digital ad campaign management team of 3 through a period of high growth and turnover, ensuring on-time and successful delivery of all ad campaigns leading to a 30% increase in department efficiency</li>  
                     </ul>
                 </div>
             </div> <!-- close "content-wrapper" -->
@@ -85,29 +88,54 @@
 
         <section id="portfolio">
             <div class="content-wrapper">
-                <h2>Developer Projects</h2>
+                <h2>Engineering Projects</h2>
                 <div class="portfolio-pieces">
-                    
+
                     <article class="portfolio-piece">
                         <figure class="portfolio-image">
                             <img src="img/tables-diagram.png" id="tables-diagram" alt="tables diagram" />
                         </figure>
-                        <h3 class="portfolio-title">Ruby Application & Kotlin PDF Parser</h3>
+
+                        <h3 class="portfolio-title">AI Assistant for E-commerce</h3>
+
+                        <h4 class="portfolio-piece-genre">AI Engineering</h4>
 
                         <p class="portfolio-description-sub-heading">Ruby, SQL, RSpec, Capybara, GCP, Kotlin, Spring, Pivotal Tracker</p>
 
-                        <p><span class="portfolio-sec-label">Challenge:</span> Client had 50,000 pdfs that they wanted parsed. 
+                        <p><span class="portfolio-sec-label">Challenge</span>: Client had 50,000 pdfs that they wanted parsed. 
                             PDFs contained both text and tabular data that the client wanted to be searchable via a UI.</p><br>
 
-                        <p><span class="portfolio-sec-label">Skills Applied:</span> Test Driven Development, Unit Testing, Object Oriented Programming, 
+                        <p><span class="portfolio-sec-label">Skills</span>: Test Driven Development, Unit Testing, Object Oriented Programming, 
                             Algorithms, Database Queries, Database Migrations, Google Cloud Products
                         </p><br>
 
-                        <p><span class="portfolio-sec-label">Result:</span> Two server-side applications were built. 
+                        <p><span class="portfolio-sec-label">Result</span>: Two server-side applications were built. 
                             The first extracted the text and tabular data from the pdfs and saved the data in a database table. 
                             The second analyzed and displayed the data.
                         </p><br>
-                    </article>
+                    </article>     
+
+                <article class="portfolio-piece">
+                    <figure class="portfolio-image">
+                        <img src="img/oauth-diagram.png" id="oauth-diagram" alt="oauth diagram" />
+                    </figure>
+                    <h3 class="portfolio-title">Shopify Web Application</h3>
+                    <h4 class="portfolio-piece-genre">E-commerce Development</h4>
+
+                    <p class="portfolio-description-sub-heading">Kotlin, KTOR, JUnit, Gradle, Docker, Google Artifact Registry, Google Cloud Run, Google OAuth, GitHub Actions, Pivotal Tracker
+                    </p>
+
+                    <p><span class="portfolio-sec-label">Challenge</span>: Build a web application with a basic homepage where users can sign in and out.
+
+                    </p><br>
+
+                    <p><span class="portfolio-sec-label">Skills</span>: Shopify, CI/CD Pipeline, Semantic Coding, Liquid, Shopify Theme Editor, Shopify Liquid, Shopify Theme Development
+                    </p><br>
+
+                    <p><span class="portfolio-sec-label">Result</span>: Kotlin and KTOR web application that uses Google OAuth and is deployed on Google Cloud Run with a CI pipeline.
+                    </p><br> 
+                </article>
+                    
 
                     <article class="portfolio-piece">
                         <figure class="portfolio-image">
@@ -116,41 +144,22 @@
                     
                     <h3 class="portfolio-title">Ruby & Rails Web Application</h3>
 
+                    <h4 class="portfolio-piece-genre">Full-Stack Development</h4>
+
                     <p class="portfolio-description-sub-heading">  Ruby, Rails, ERB, Bootstrap, SQL, Postgres, RSpec, Capybara, Heroku, GitHub, Pivotal Tracker
                     </p>
 
-                    <p><span class="portfolio-sec-label">Challenge:</span> Client had a proprietary tasking process for developing maintenance plans
+                    <p><span class="portfolio-sec-label">Challenge</span>: Client had a proprietary tasking process for developing maintenance plans
                          to eliminate downtime of manufacturing equipment. This process was completed using Excel. The client wanted a web application
                           where they could complete the tasking process and have their customers access the resulting maintenance plans.
                     </p><br>
 
-                    <p><span class="portfolio-sec-label">Skills Applied:</span>  MVC, CRUD, Database Migrations, Routing, TDD, E2E Testing, Unit Tests, 
+                    <p><span class="portfolio-sec-label">Skills</span>: MVC, CRUD, Database Migrations, Routing, TDD, E2E Testing, Unit Tests, 
                         Single Responsibility, Continuous Delivery, Pair Programming
                     </p><br>
 
-                    <p><span class="portfolio-sec-label">Result:</span> Server-side web application that outputs a customized maintenance plan for each client.
+                    <p><span class="portfolio-sec-label">Result</span>: Server-side web application that outputs a customized maintenance plan for each client.
                     </p><br>    
-                </article>
-
-                <article class="portfolio-piece">
-                    <figure class="portfolio-image">
-                        <img src="img/oauth-diagram.png" id="oauth-diagram" alt="oauth diagram" />
-                    </figure>
-                    
-                    <h3 class="portfolio-title">Kotlin & KTOR Web Application</h3>
-
-                    <p class="portfolio-description-sub-heading">Kotlin, KTOR, JUnit, Gradle, Docker, Google Artifact Registry, Google Cloud Run, Google OAuth, GitHub Actions, Pivotal Tracker
-                    </p>
-
-                    <p><span class="portfolio-sec-label">Challenge:</span> Build a web application with a basic homepage where users can sign in and out.
-
-                    </p><br>
-
-                    <p><span class="portfolio-sec-label">Skills Applied:</span> OAuth, CI/CD Pipeline, Test Driven Development, Extreme Programming, Pair Programming
-                    </p><br>
-
-                    <p><span class="portfolio-sec-label">Result:</span> Kotlin and KTOR web application that uses Google OAuth and is deployed on Google Cloud Run with a CI pipeline.
-                    </p><br> 
                 </article>
 
                 <article class="portfolio-piece">
@@ -158,18 +167,20 @@
                             <img src="img/redux-diagram.png" id="redux-diagram"
                                 alt="redux diagram" />
                     </figure>
+                   
                     <h3 class="portfolio-title">Mobile Cross-Platform Application</h3>
+                    <h4 class="portfolio-piece-genre">Mobile Development</h4>
                     <p class="portfolio-description-sub-heading">  React Native, TypeScript, Redux, Jest, Kotlin, Kotlin Multiplatform, Appium, Swift, SwiftUI, Gradle, Jira
                     </p>
 
-                    <p><span class="portfolio-sec-label">Challenge:</span> A medical device company wanted a mobile app to pair with one of their wearables so users could read their data and enter data to gain health insights.
+                    <p><span class="portfolio-sec-label">Challenge</span>: A medical device company wanted a mobile app to pair with one of their wearables so users could read their data and enter data to gain health insights.
                     </p><br>
 
-                    <p><span class="portfolio-sec-label">Skills Applied:</span>  Cross-platform mobile development, front-end development, E2E Testing, Unit Testing, backfilling tests, debugging,
+                    <p><span class="portfolio-sec-label">Skills</span>: Cross-platform mobile development, front-end development, E2E Testing, Unit Testing, backfilling tests, debugging,
                           Agile, Sprints, Pull Requests, Branching and Merging 
                     </p><br>
 
-                    <p><span class="portfolio-sec-label">Result:</span> Four applications were engineered to comprise one mobile app. 
+                    <p><span class="portfolio-sec-label">Result</span>: Four applications were engineered to comprise one mobile app. 
                         Three applications were built for the regulated portion of the app, 
                         and one React Native application was built for the unregulated portion.
                     </p><br>  
@@ -183,6 +194,10 @@
         </section> <!-- close Portfolio section -->
     </div> <!-- close "content-wrapper" -->
         
+
+
+
+
         <section id="tools">
             <div class="content-wrapper">
                 <h2>Tools</h2>
@@ -368,11 +383,11 @@
                 <h2>About</h2>
                 <div class="about-section-content">
                     <div class="about-sec-general">
-                        <p class="about-sec-intro">I'm a curious and collaborative developer who loves writing clean, easily extendable code. Here are a few things about me:</p>
+                        <p class="about-sec-intro">I’m a thoughtful and collaborative operator who loves creating beautiful, easy-to-navigate user experiences that convert. Here are a few things about me...</p>
                         <ol class="about-me-list">
-                            <li class="about-me"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-sharp fa-light fa-circle"></i></span>Simplifying and improving others' experiences has always been one of my gifts</li>
+                            <li class="about-me"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-sharp fa-light fa-circle"></i></span>Simplifying and improving others' experiences has always been one of my gifts, and is a skill I've applied and honed in each of my roles - from customer service to engineering</li>
                             <li class="about-me"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-sharp fa-light fa-circle"></i></span>Before working in the digital space, I worked in Quality Management Systems for a healthcare company, streamlining and improving electrical and mechanical engineering processes</li>
-                            <li class="about-me"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-sharp fa-light fa-circle"></i></span>The biggest reason I love to code is that it allows me to blend my creative thinking and technical side to make things!</li>
+                            <li class="about-me"><span class="fa-li" style="--fa-li-width: 1em;"><i class="fa-sharp fa-light fa-circle"></i></span>Building software is the work I love most because it requires I draw on my communication, creative and analytical thinking, and technical skills to solve complex problems that improve people's lives</li>
                         </ol>
                     </div>
                     <!--close about-sec-general -->
@@ -391,33 +406,33 @@
                 <div class="offerings-section-content">
                     <div class="about-sec-half-width">
                         <aside>
-                            <h3>Front-End Development</h3>
+                            <h3>AI Engineering</h3>
                             <ul>
-                                <li class="offerings">HTML5</li>
-                                <li class="offerings">CSS3</li>
-                                <li class="offerings">JavaScript</li>
-                                <li class="offerings">TypeScript</li>
-                                <li class="offerings">React</li>
+                                <li class="offerings">Python & Flask</li>
+                                <li class="offerings">OpenAI API</li>
+                                <li class="offerings">Chat Completions</li>
+                                <li class="offerings">Assistants</li>
+                                <li class="offerings">Prompt Engineering</li>
                             </ul>
                         </aside>
                         <aside>
-                            <h3>Back-End Development</h3>
+                            <h3>Software Development</h3>
                             <ul>
-                                <li class="offerings">Ruby</li>
-                                <li class="offerings">Rails</li>
-                                <li class="offerings">RSpec</li>
-                                <li class="offerings">Capybara</li>
-                                <li class="offerings">SQL</li>
+                                <li class="offerings">Front-end</li>
+                                <li class="offerings">Back-end</li>
+                                <li class="offerings">Test-Driven Development</li>
+                                <li class="offerings">OOP & Functional Programming</li>
+                                <li class="offerings">MVC Architecture</li>
                             </ul>
                         </aside>
                         <aside>
-                            <h3>Mobile Development</h3>
+                            <h3>Website Development</h3>
                             <ul>
-                                <li class="offerings">React Native</li>
-                                <li class="offerings">Jest</li>
-                                <li class="offerings">Swift</li>
-                                <li class="offerings">Kotlin</li>
-                                <li class="offerings">Appium</li>
+                                <li class="offerings">Shopify</li>
+                                <li class="offerings">WordPress</li>
+                                <li class="offerings">Webflow</li>
+                                <li class="offerings">Squarespace</li>
+                                <li class="offerings">Hosting</li>
                             </ul>
                         </aside>
                     </div> <!-- close offerings-sec-half-width -->
@@ -466,7 +481,7 @@
             </div> <!-- close "footer-content" -->
         </div> <!-- close "footer-content-wrapper"-->
         <div class="copyright">
-            <h6>Copyright 2024 | Katherine Fier</h6>
+            <h6>Copyright 2025 | Katherine Fier</h6>
         </div>
     </footer>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
