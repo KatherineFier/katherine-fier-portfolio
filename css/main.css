@@ -404,7 +404,7 @@ footer .copyright {
   width: 100%;
   margin: 10px 0px 40px 0px;
   padding: 0 0 0 0px;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.25em;
   text-align: left;
   list-style: none;
@@ -415,7 +415,7 @@ footer .copyright {
 }
 
 .accomplishments-emphasis {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /*********************** HOMEPAGE - MOBILE - PORTFOLIO *********************/
