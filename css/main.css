@@ -437,6 +437,10 @@ footer .copyright{
   position: relative; 
 }
 
+.accomplishments-emphasis{
+  font-weight: 400;
+}
+
 /*********************** HOMEPAGE - MOBILE - PORTFOLIO *********************/
 
 #portfolio {
