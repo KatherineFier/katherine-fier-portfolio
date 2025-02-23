@@ -91,28 +91,24 @@ textarea {
    Helper classes
    ========================================================================== */
 
-
 /****** GENERAL STYLES ******/
 
-
 .html {
-    font-size:  17px;
+  font-size: 17px;
 }
-
 
 body {
-    font-size:  1em;
-    font-family: 'Raleway', sans-serif;
-    color: #424144;
-    text-align: left;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  color: #424144;
+  text-align: left;
 }
 
-
-ul,ol{
-    margin:  0;
-    padding: 0;
+ul,
+ol {
+  margin: 0;
+  padding: 0;
 }
-
 
 a {
   color: #bf9ded;
@@ -120,233 +116,218 @@ a {
   text-decoration: none;
 }
 
-
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 2.25em;
   color: #ffffff;
   font-weight: 400;
-  }
+}
 
-  .header-underline {
-    text-decoration: underline;
-    text-decoration-thickness: .25em;
-    text-underline-offset: .25em;
-  }
+.header-underline {
+  text-decoration: underline;
+  text-decoration-thickness: 0.25em;
+  text-underline-offset: 0.25em;
+}
 
-  .header-bold {
-    font-weight: 700;
-  }
+.header-bold {
+  font-weight: 700;
+}
 
-  .last-word {
-    display: block;
-    margin-top: .15em;
-  }
+.last-word {
+  display: block;
+  margin-top: 0.15em;
+}
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
-  color:  #ffffff;
-  margin:  30px 0px 40px 0px;
+  color: #ffffff;
+  margin: 30px 0px 40px 0px;
   font-size: 2.5em;
-  }
-
+}
 
 h3 {
-  font-family: 'Lato', serif;
+  font-family: "Lato", serif;
   font-weight: 400;
   font-size: 1.25em;
   color: #424280;
-  margin:  0;
+  margin: 0;
 }
 
-h4{
-  font-family: 'Lato', serif;
+h4 {
+  font-family: "Lato", serif;
   font-weight: 400;
   font-size: 1.25em;
   color: #424280;
-  margin-bottom:  20px;
+  margin-bottom: 20px;
 }
 
-
-h5{
-  font-family: 'Adamina',serif;
+h5 {
+  font-family: "Adamina", serif;
   font-weight: 500;
-  color:  #424280;
-  margin:  0;
+  color: #424280;
+  margin: 0;
   font-size: 2.25em;
   letter-spacing: 2px;
 }
 
-
-
-h6 { 
-  font-family: 'Raleway', sans-serif;
+h6 {
+  font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: .7em;
+  font-size: 0.7em;
   color: #424144;
-  margin:  0;
+  margin: 0;
 }
-
 
 p {
   font-size: 1em;
   line-height: 1.285;
-  }
-
-
-img{
-  width:  100%;
 }
 
+img {
+  width: 100%;
+}
 
 figure {
   margin: 0;
 }
 
-address{
-  font-style:  normal;
+address {
+  font-style: normal;
 }
 
-
-.content-wrapper{
-  width:  90%;
-  margin:  30px 0 30px 0;
+.content-wrapper {
+  width: 90%;
+  margin: 30px 0 30px 0;
 }
-
 
 /****** BASE HEADER STYLES ******/
 
-header, footer { 
+header,
+footer {
   display: flex;
   justify-content: center;
-  align-items:  center;
-  flex-flow:  row wrap;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-header{
+header {
   background-color: #ffffff;
-  padding:  2em 0 1em 0;
+  padding: 2em 0 1em 0;
 }
 
-header .content-wrapper{
-  margin:  0;
-  display:  flex;
-  justify-content:  center;
-  align-items:  center;
-  flex-flow:  row wrap;
+header .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-header h2{
-  width:  100%;
+header h2 {
+  width: 100%;
 }
 
-
-.header-divider{
-  background: #8C8CAB;
-  height: .25px;
-  width:  90%;
-  margin:  10px 0 20px 0;
+.header-divider {
+  background: #8c8cab;
+  height: 0.25px;
+  width: 90%;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
-  width:  100%;
-  font-size:  1.125em;
-  font-weight:  700;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 700;
   text-transform: uppercase;
-  justify-content:  space-around;
+  justify-content: space-around;
 }
 
-header nav ul{
-  width:  100%;
+header nav ul {
+  width: 100%;
   list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
   text-align: center;
   margin-bottom: 1em;
 }
 
 nav ul li a {
-  font-family: 'Lato', sans-serif;
-  font-size: .7em;
+  font-family: "Lato", sans-serif;
+  font-size: 0.7em;
   color: #424280;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
 
 /****** BASE FOOTER STYLES ******/
 
-footer { 
+footer {
   text-align: center;
   flex-direction: column;
   background-color: #efefef;
   padding-bottom: 30px;
 }
 
-
-footer h2{
-  color:  #424144;
+footer h2 {
+  color: #424144;
   font-weight: 300;
 }
 
-footer p{
-  margin:  0;
-  color:  #424144;
+footer p {
+  margin: 0;
+  color: #424144;
   font-weight: 200;
-  font-size: .85em;
+  font-size: 0.85em;
 }
 
 footer .contact a {
-  margin:  0;
-  color:  #bf9ded;
+  margin: 0;
+  color: #bf9ded;
   font-weight: 400;
-  font-size: .85em;
-
+  font-size: 0.85em;
 }
 
-footer h3 { 
+footer h3 {
   margin: 40px 0px 25px 0px;
-  color:  #424144;
+  color: #424144;
   font-weight: 300;
 }
 
-footer .content-wrapper{
-  width:  55%;
+footer .content-wrapper {
+  width: 55%;
 }
 
-footer .contact, .social {
+footer .contact,
+.social {
   margin-bottom: 20px;
 }
 
-
-footer .social-icons{
-  display:  flex;
+footer .social-icons {
+  display: flex;
   justify-content: center;
-  align-items:  flex-end;
+  align-items: flex-end;
 }
 
-footer .social-icons p{
-  display:  flex;
+footer .social-icons p {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 .5em;
-
+  margin: 0 0.5em;
 }
 
-footer .social-icons p a{
-  color:  #67666b;
+footer .social-icons p a {
+  color: #67666b;
 }
 
-
-footer .social-icons p i{
+footer .social-icons p i {
   font-size: 1.5em;
 }
 
-
-footer .copyright{
+footer .copyright {
   padding-top: 5px;
 }
 
@@ -354,34 +335,32 @@ footer .copyright{
    Homepage - Mobile Styles
    ========================================================================== */
 
-
 /************************  HOMEPAGE - MOBILE - HERO AREA *****************/
 
-.hero-area{
+.hero-area {
   background-color: #cdd1dc;
   background-size: cover;
   background-position: 55% 50%;
   background-repeat: no-repeat;
-  min-height:  600px;
-  display:  flex;
+  min-height: 600px;
+  display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-.hero-area .content-wrapper{
+.hero-area .content-wrapper {
   margin-bottom: 0px;
   display: flex;
   flex-flow: row wrap;
 }
 
-.hero-area h1 { 
+.hero-area h1 {
   line-height: 1.5em;
-  width:  100%;
+  width: 100%;
   padding-top: 20px;
   letter-spacing: 1.5px;
   font-size: 3em;
 }
-
 
 /******************** HOMEPAGE - MOBILE - ACCOMPLISHMENTS SECTION *********************/
 
@@ -394,9 +373,8 @@ footer .copyright{
   padding-bottom: 30px;
 }
 
-
-#accomplishments .content-wrapper{
-  width:  80%;
+#accomplishments .content-wrapper {
+  width: 80%;
 }
 
 #accomplishments h2 {
@@ -404,41 +382,40 @@ footer .copyright{
   color: #424280;
 }
 
-
-.accomplishments-list{
-  display:  flex;
+.accomplishments-list {
+  display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  width: 100%
-};
+  width: 100%;
+}
 
-#accomplishments ul{
-  display:  flex;
+#accomplishments ul {
+  display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
   margin: 0 0 0 100px;
   padding: 0 0 0 10px;
-  width: 100%; 
+  width: 100%;
 }
 
-#accomplishments ul li{
-  width:  100%;
-  margin:  10px 0px 40px 0px;
+#accomplishments ul li {
+  width: 100%;
+  margin: 10px 0px 40px 0px;
   padding: 0 0 0 0px;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 1.25em;
   text-align: left;
   list-style: none;
   list-style-position: outside;
-  color:  #424144;
+  color: #424144;
   line-height: 1.33em;
-  position: relative; 
+  position: relative;
 }
 
-.accomplishments-emphasis{
-  font-weight: 400;
+.accomplishments-emphasis {
+  font-weight: 300;
 }
 
 /*********************** HOMEPAGE - MOBILE - PORTFOLIO *********************/
@@ -446,95 +423,96 @@ footer .copyright{
 #portfolio {
   background-color: #f5f5f5;
   min-height: 1000px;
-  display:  flex;
-  justify-content:  center;
+  display: flex;
+  justify-content: center;
   padding-bottom: 30px;
 }
 
-.portfolio-pieces{
-  display:  flex;
+.portfolio-pieces {
+  display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-.portfolio-piece{
-  display:  flex;
-  align-items:  center;
+.portfolio-piece {
+  display: flex;
+  align-items: center;
   flex-flow: row wrap;
-  width:  100%;
+  width: 100%;
   margin: 30px 15px 30px 15px;
   text-align: left;
 }
 
-.portfolio-image{
-  width:  100%;
-  margin-bottom:  40px;
+.portfolio-image {
+  width: 100%;
+  margin-bottom: 40px;
 }
 
-#portfolio p { 
+#portfolio p {
   color: #424144;
   text-align: left;
-  margin:  0;
+  margin: 0;
 }
-.portfolio-piece-genre{
+.portfolio-piece-genre {
   background-color: hsla(265, 76%, 77%, 0.33);
   color: #67666b;
   padding: 5px 10px;
-  border-radius: .25em;
-  font-size: .85em;
+  border-radius: 0.25em;
+  font-size: 0.85em;
   font-weight: 500;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
-.portfolio-sec-label{
+.portfolio-sec-label {
   text-decoration: underline;
-  font-weight: 500;
+  font-weight: 400;
+  font-family: Lato, sans-serif;
 }
-.project-tools{
-  font-size: .85em;
+.project-tools {
+  font-size: 0.85em;
   font-weight: 300;
 }
 
-#portfolio h2{
+#portfolio h2 {
   text-align: center;
   color: #424144;
 }
 
-#portfolio h3{
-  margin-bottom:  10px;
-  width:  100%;
+#portfolio h3 {
+  margin-bottom: 10px;
+  width: 100%;
 }
 
-.portfolio-description-sub-heading{
-  font-weight: 500;
+.portfolio-description-sub-heading {
+  font-weight: 400;
   padding-top: 10px;
   padding-bottom: 20px;
-  width:  100%;
+  width: 100%;
   text-transform: uppercase;
-  font-size: .85em;
+  font-size: 0.85em;
+  font-family: Lato, sans-serif;
 }
 
-.portfolio-description-sub-heading span{
-  padding-bottom: 100px;
+.portfolio-sec-description {
+  font-family: Raleway, sans-serif;
+  font-size: 1em;
+  font-weight: 200;
 }
-
-
-.view-project-link{
+.view-project-link {
   margin-top: 30px;
   text-decoration: underline;
-  font-size: .90em;
+  font-size: 0.9em;
 }
 
-
-#portfolio .portfolio-section-button{
-  display:  flex;
+#portfolio .portfolio-section-button {
+  display: flex;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
 }
 
-.portfolio-section-button a{
+.portfolio-section-button a {
   background-color: #8d8dc9;
   padding: 20px 50px 20px 50px;
   text-align: center;
@@ -543,46 +521,40 @@ footer .copyright{
   font-weight: 300;
   font-size: 1.15em;
   margin-top: 35px;
-
 }
 
 /******************** HOMEPAGE - MOBILE - TOOLS SECTION *********************/
 
-
-#tools{
+#tools {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color:  #f2ebfb;
+  background-color: #f2ebfb;
   min-height: 350px;
   padding-bottom: 30px;
 }
 
-
-#tools .content-wrapper{
-  width:  80%;
+#tools .content-wrapper {
+  width: 80%;
 }
 
- #tools h2 {
+#tools h2 {
   text-align: center;
   color: #424280;
   padding: 20px 0 20px 0;
 }
 
-
- #tools article { 
+#tools article {
   width: 30%;
-  margin: 30px 
+  margin: 30px;
 }
 
-
-#tools .tools-icons{ 
+#tools .tools-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  
 }
 
 #tools i {
@@ -596,9 +568,8 @@ footer .copyright{
   margin: 0;
 }
 
-
-.tools-sec-button{
-  display:  flex;
+.tools-sec-button {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -607,18 +578,16 @@ footer .copyright{
   padding-bottom: 30px;
 }
 
-
-#tools a{
-    background-color: #424280;
-    padding: 20px 50px 20px 50px;
-    text-align: center;
-    color: #ffffff;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 1.15em;
-    margin-top: 35px;
+#tools a {
+  background-color: #424280;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 1.15em;
+  margin-top: 35px;
 }
-
 
 /************************** HOMEPAGE - MOBILE - ABOUT ***********************/
 
@@ -631,24 +600,24 @@ footer .copyright{
   padding-bottom: 0px;
 }
 
-#about .content-wrapper{
-  width:  80%;
+#about .content-wrapper {
+  width: 80%;
 }
 
 #about h2 {
-  color:  #424280;
+  color: #424280;
   text-align: center;
   margin-bottom: 40px;
 }
 
-#about p { 
+#about p {
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.5em;
   color: #424144;
 }
 
-#about ol{
+#about ol {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -657,27 +626,27 @@ footer .copyright{
   font-family: Raleway, sans-serif;
 }
 
-.fa-circle{
-  font-size: .5em;
+.fa-circle {
+  font-size: 0.5em;
 }
 
-#about li{
+#about li {
   display: flex;
-  align-items: center; 
+  align-items: center;
   margin-top: 20px;
   padding: 0 0 0 20px;
-  color:  #424144;
-  font-weight: 300;
+  color: #424144;
+  font-weight: 100;
   font-size: 1.15em;
-  margin-left: 30px; 
-  width:  90%;
+  margin-left: 30px;
+  width: 90%;
   list-style-type: none;
   list-style-position: outside;
   position: relative;
 }
 
-#about .about-sec-intro{
-  width:  100%;
+#about .about-sec-intro {
+  width: 100%;
   font-weight: 200;
   font-size: 1.75em;
 }
@@ -693,44 +662,40 @@ footer .copyright{
   padding-bottom: 60px;
 }
 
-#offerings .content-wrapper{
-  width:  80%;
+#offerings .content-wrapper {
+  width: 80%;
 }
 
-
 #offerings h2 {
-  width:  80%;
-  color:  #bf9ded;
+  width: 80%;
+  color: #bf9ded;
   text-align: center;
   margin-bottom: 50px;
   font-family: Lato, sans-serif;
 }
 
-#offerings .site-visitor-question-background{
+#offerings .site-visitor-question-background {
   background-color: #f5f5f5;
   padding: 10px 5px 10px 5px;
-  margin:  0 0 80px 0;
-
+  margin: 0 0 80px 0;
 }
 
-#offerings .site-visitor-question{
- display: flex;
- width:  100%;
- justify-content: center;
- align-items: center;
+#offerings .site-visitor-question {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-
-#offerings p { 
+#offerings p {
   font-size: 1.25em;
   font-weight: 300;
   line-height: 1.5em;
   color: #424144;
 }
 
-
-#offerings aside{
-  margin:  60px 0 0 0;
+#offerings aside {
+  margin: 60px 0 0 0;
   width: 100%;
   height: 350px;
   background-color: #ffffff;
@@ -740,73 +705,70 @@ footer .copyright{
   text-align: center;
 }
 
-#offerings h3{
+#offerings h3 {
   color: #424280;
-  padding:  30px 0 10px 0;
+  padding: 30px 0 10px 0;
   font-weight: 400;
   font-size: 1.25em;
 }
 
-#offerings ul{
-  list-style-type: none; 
+#offerings ul {
+  list-style-type: none;
 }
 
-#offerings li{
+#offerings li {
   margin-top: 20px;
-  color:  #424144;
+  color: #424144;
   font-weight: 300;
-  font-size: 1.25em; 
+  font-size: 1.25em;
 }
-
 
 /* ==========================================================================
    BFF Project Page - Mobile Styles
    ========================================================================== */
 
 #bff-header nav {
-  width:  100%;
-  font-size:  1.125em;
-  font-weight:  700;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 700;
   text-transform: uppercase;
   display: flex;
-  justify-content:  center;
-  align-items:  center;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
   background-color: #ffffff;
 }
 
-#bff-header ul{
-  width:  100%;
+#bff-header ul {
+  width: 100%;
   background-color: #ffffff;
-  display:  flex;
+  display: flex;
   justify-content: space-evenly;
   list-style-type: none;
 }
 
-
-#bff-project-home-link{
-  font-size: .9em;
+#bff-project-home-link {
+  font-size: 0.9em;
   font-weight: 600;
-  text-transform: none; 
+  text-transform: none;
 }
-
 
 /******************** BFF CASE STUDY PAGE - MOBILE - HERO AREA *******************/
 
 /************************  HOMEPAGE - MOBILE - HERO AREA *****************/
 
-.bff-hero-area{
-  background: url('../img/bff-hero-image.png');
+.bff-hero-area {
+  background: url("../img/bff-hero-image.png");
   background-size: cover;
   background-position: 95% 5%;
   background-repeat: no-repeat;
-  min-height:  600px;
-  display:  flex;
+  min-height: 600px;
+  display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-.bff-hero-area .content-wrapper{
+.bff-hero-area .content-wrapper {
   margin-bottom: 0px;
   display: flex;
   flex-flow: row wrap;
@@ -814,16 +776,14 @@ footer .copyright{
   justify-content: center;
 }
 
-.bff-hero-area h1 { 
+.bff-hero-area h1 {
   font-size: 3.75em;
   width: 80%;
   margin-top: 60px;
   font-weight: 600;
 }
 
-
 /***************** BFF CASE STUDY  PAGE - MOBILE - OVERVIEW SECTION ************/
-
 
 #overview {
   background-color: #ffffff;
@@ -834,10 +794,9 @@ footer .copyright{
   padding-bottom: 30px;
 }
 
-
-#overview .content-wrapper{
-  width:  80%;
-  padding:  20px 0 20px 0;
+#overview .content-wrapper {
+  width: 80%;
+  padding: 20px 0 20px 0;
 }
 
 #overview h2 {
@@ -846,26 +805,23 @@ footer .copyright{
   padding-bottom: 10px;
 }
 
-#overview p { 
+#overview p {
   color: #424144;
   font-size: 1.5em;
   line-height: 1.5em;
   font-weight: 200;
 }
 
-#overview h4{
-text-align: right;
-font-weight: 200;
- 
+#overview h4 {
+  text-align: right;
+  font-weight: 200;
 }
 
-#overview span{
-font-weight: 500;
+#overview span {
+  font-weight: 500;
 }
-
 
 /******************** BFF CASE STUDY PAGE - MOBILE - CASE STUDY PROCESS/PROCESS SECTION *********************/
-
 
 #process {
   background-color: #ffffff;
@@ -876,12 +832,12 @@ font-weight: 500;
   padding-bottom: 60px;
 }
 
-#process .content-wrapper{
-  width:  80%;
+#process .content-wrapper {
+  width: 80%;
 }
 
 #process h2 {
-  color:  #424280;
+  color: #424280;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -893,79 +849,77 @@ font-weight: 500;
   color: #424144;
 }
 
-.process-sec-half-width{
+.process-sec-half-width {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 
-.process-list-background{
-  background-color:  #f2ebfb;
+.process-list-background {
+  background-color: #f2ebfb;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width:  85%;
-  padding:  20px 0 20px 0;
-
+  width: 85%;
+  padding: 20px 0 20px 0;
 }
 
-.process-list{
+.process-list {
   width: 75%;
   background-color: #f2ebfb;
   display: flex;
   justify-content: center;
-  margin:  0;
+  margin: 0;
   min-height: 300px;
 }
 
-#process aside{
-  margin:  60px 0 0 0;
-  padding:  20px 10px 35px 10px;
+#process aside {
+  margin: 60px 0 0 0;
+  padding: 20px 10px 35px 10px;
   width: 100%;
   min-height: 400px;
   background-color: #ffffff;
   border-width: 2px;
   border-style: solid;
   border-color: #8d8dc9;
-  display:  flex;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
 }
 
-.process-heading{
+.process-heading {
   background-color: #f7f7f7;
   height: 100px;
-  width:  85%;
+  width: 85%;
   margin: 10px 0px 20px 0px;
-  display:  flex;
+  display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
 
-
-#process h3{
+#process h3 {
   color: #424280;
   text-align: center;
   font-weight: 400;
   font-size: 1.25em;
   width: 100%;
-  margin:  0;
+  margin: 0;
 }
 
-#process ul{
-  display:  flex;
+#process ul {
+  display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   margin: 0;
   padding: 0 0 0 10px;
-  width: 100%; 
+  width: 100%;
 }
 
-#process ul li{
-  width:  100%;
-  margin-top:  10px;
+#process ul li {
+  width: 100%;
+  margin-top: 10px;
   margin-bottom: 5px;
   padding: 0 0 0 20px;
   font-weight: 300;
@@ -973,62 +927,59 @@ font-weight: 500;
   text-align: left;
   list-style-type: circle;
   list-style-position: outside;
-  color:  #424144;
+  color: #424144;
 }
 
-#process .process-section-button{
-  display:  flex;
+#process .process-section-button {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px;
-  margin:  50px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
-
-#process a{
-    background-color: #424280;
-    padding: 20px 50px 20px 50px;
-    text-align: center;
-    color: #ffffff;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 1.15em;
-    margin-top: 35px;
+#process a {
+  background-color: #424280;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 1.15em;
+  margin-top: 35px;
 }
 
 /******************** BFF CASE STUDY PAGE - MOBILE - TOOLS SECTION *********************/
 
-
-#bff-tools{
+#bff-tools {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color:  #f2ebfb;
+  background-color: #f2ebfb;
   min-height: 350px;
   padding-bottom: 30px;
 }
 
-
-#bff-tools .content-wrapper{
-  width:  80%;
+#bff-tools .content-wrapper {
+  width: 80%;
 }
 
- #bff-tools h2 {
+#bff-tools h2 {
   text-align: center;
   color: #424280;
   padding: 20px 0 20px 0;
 }
 
- #bff-tools article { 
+#bff-tools article {
   width: 30%;
-  margin: 30px 
+  margin: 30px;
 }
 
-#bff-tools .bff-tools-icons{ 
+#bff-tools .bff-tools-icons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1046,9 +997,8 @@ font-weight: 500;
   margin: 0;
 }
 
-
-.bff-tools-sec-button{
-  display:  flex;
+.bff-tools-sec-button {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -1057,22 +1007,20 @@ font-weight: 500;
   padding-bottom: 30px;
 }
 
-
-#bff-tools a{
-    background-color: #424280;
-    padding: 20px 50px 20px 50px;
-    text-align: center;
-    color: #ffffff;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 1.15em;
-    margin-top: 35px;
+#bff-tools a {
+  background-color: #424280;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 1.15em;
+  margin-top: 35px;
 }
 
 /******************** BFF CASE STUDY PAGE - MOBILE - CHALLENGES SECTION *********************/
 
-
-#challenges{
+#challenges {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -1082,11 +1030,11 @@ font-weight: 500;
   padding-bottom: 30px;
 }
 
-#challenges .content-wrapper{
-  width:  80%;
+#challenges .content-wrapper {
+  width: 80%;
 }
 
- #challenges h2 {
+#challenges h2 {
   text-align: center;
   color: #424280;
   padding: 20px 0 20px 0;
@@ -1112,16 +1060,16 @@ font-weight: 500;
   padding-bottom: 60px;
 }
 
-#results .content-wrapper{
-  width:  80%;
-  display:  flex;
+#results .content-wrapper {
+  width: 80%;
+  display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
 
 #results h2 {
-  color:  #424280;
+  color: #424280;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -1133,63 +1081,62 @@ font-weight: 500;
   color: #424144;
 }
 
-.results-list{
-  display:  flex;
+.results-list {
+  display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   width: 85%;
 }
 
-#results ul{
-  display:  flex;
+#results ul {
+  display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
   margin: 0 0 0 0;
   padding: 0 0 0 10px;
-  width:75%;
+  width: 75%;
 }
 
-#results ul li{
-  width:  100%;
-  margin:  10px 0px 20px 0px;
+#results ul li {
+  width: 100%;
+  margin: 10px 0px 20px 0px;
   padding: 0 0 0 0px;
   font-weight: 200;
   font-size: 1.25em;
   text-align: left;
   list-style: none;
   list-style-position: outside;
-  color:  #424144;
+  color: #424144;
   line-height: 1.33em;
   position: relative;
 }
 
-.results-section-button{
-  display:  flex;
+.results-section-button {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 100%;
   padding-top: 40px;
   padding-bottom: 30px;
-  margin:  10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
-#results a{
-    background-color: #424280;
-    padding: 20px 50px 20px 50px;
-    text-align: center;
-    color: #ffffff;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    font-size: 1.15em;
-    margin-top: 35px;
+#results a {
+  background-color: #424280;
+  padding: 20px 50px 20px 50px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 1.15em;
+  margin-top: 35px;
 }
 
-
-.results-button{
-  display:  flex;
+.results-button {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -1197,451 +1144,104 @@ font-weight: 500;
   padding-top: 40px;
   padding-bottom: 30px;
 }
-
 
 /*============================================================================
                             TABLET MEDIA QUERY
 ============================================================================*/
 
-
-@media only screen and (min-width: 768px){
-
-/******************************* TABLET GENERAL STYLES*****************************/
-
-.content-wrapper{
-  max-width:  700px;
-}
-
-/******************************** HOMEPAGE - TABLET - HERO - AREA************************************/
-
-.hero-area {
-  background: url('../img/header-background-image.png');
-  background-position: 50% 30%;
-  background-size: cover;
-  min-height:  500px;
-}
-
-.hero-area h1 { 
-  font-size: 2.5em;
-  line-height: 1.5em;
-  width:  52%;
-  margin-right: 200px;
-  letter-spacing: 2px;
-  padding-top: 25px;
-}
-
-/******************************** HOMEPAGE - TABLET - PORTFOLIO SECTION *******************************/
-
-
-#portfolio {
-  min-height: 500px;
-  display:  flex;  
-}
-
-#portfolio .content-wrapper {
-  width:  70%;
-}
-
-.portfolio-pieces {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  align-items: flex-start;
-}
-
-.portfolio-piece {
-  display:  flex;
-  
-  flex-flow: row wrap;
-  width:  45%;
-  margin: 30px 0;
-  text-align: left;
-}
-
-/******************************** HOMEPAGE - TABLET - PRAISE - SECTION*******************************/
-
-#praise p { 
-  line-height: 1.75em;
-}
-
-/****************** HOMEPAGE - TABLET - TOOLS SECTION ************/
-
-#tools article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-  flex-basis: 20%;
-}
-
-#tools .bff-tool-description {
-  width: 45%;
-}
-
-#tools i{
-margin-bottom: 25px;
-}
-
-/******************************** HOMEPAGE - TABLET - ABOUT SECTION *******************************/
-
-#about .about-sec-general{
-  display: flex;
-  width: 100%;
-  flex-flow: row wrap;
-}
-
-#about h2 {
-  color:  #424280;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#about li{
-  width:  90%;
-  margin-left: 60px; 
-}
-
-#about .about-sec-intro{
-  width:  100%;
-  font-weight: 200;
-  font-size: 2em;
-}
-
-/******************************** HOMEPAGE - TABLET - FOOTER STYLES *******************************/
-
-
-footer .content-wrapper {
-  width:  100%;
-}
-
-footer .footer-content {
-  display: flex;
-  flex-direction: row;
-  justify-content:  space-between;
-  align-items: flex-start;
-}
-
-footer h2 {
-  margin-bottom: 10px;
-}
-
-footer .contact, .social, .meet-me {
-  margin:  0;
-  width:  33%;
-}
-
- footer .social {
-  min-height: 153px;
- }
-
-footer .social-icons {
-  justify-content: center;
-  align-items: flex-end;
-  line-height: 0;
-  padding-top: 10px;
-}
-
-footer .social-icons p {
-  display:  flex;
-  justify-content: center;
-  align-items: flex-end;
-  margin: 0 .5em;
-}
-
-footer p {
-  line-height: 1.285em;
-  margin:  0;
-}
-
-footer a {
-  margin:  0;
-}
-
-footer a i{
-  margin:  0px;
-}
-
-footer .copyright{
-  margin:  10px 0 0 0;
-}
-
-
-/* ==========================================================================
-   BFF Project Page - Tablet Styles
-   ========================================================================== */
-
-
-#bff-header nav {
-  width:  50%;
-  font-size:  1.125em;
-  font-weight:  700;
-  text-transform: uppercase;
-  display: flex;
-  justify-content:  space-between;
-  align-items:  center;
-  flex-flow: row wrap;
-}
-
-#bff-header ul{
-  width:  100%;
-}
-
-/****************** BFF PROJECT PAGE - TABLET - HERO SECTION ************/
-
-
-.bff-hero-area {
-  background-position: 50% 30%;
-  background-size: cover;
-  min-height:  500px;
-}
-
-#bff .content-wrapper{
-  width: 100%
-}
-
-
-#bff h1 { 
-  font-size: 4em;
-  width: 100%;
-  margin-left: 0px;
-}
-
-
-.down-arrow{
-  margin-top: 45px;
-}
-
-/****************** BFF PROJECT PAGE - TABLET - OVERVIEW SECTION ************/
-
-#overview p { 
-  line-height: 1.5em;
-  font-size: 1.6em;
-}
-
-/****************** BFF PROJECT PAGE - TABLET - PROJECT TOOLS SECTION ************/
-
-#bff-tools article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-  flex-basis: 20%;
-}
-
-#bff-tools .bff-tool-description {
-  width: 45%;
-}
-
-#bff-tools i{
-margin-bottom: 25px;
-}
-/****************** BFF PROJECT PAGE - TABLET - PROCESS SECTION ************/
-
-#process aside{
-  margin:  60px 0 0 0;
-  width: 100%;
-  min-height: 600px;
-}
-
-.process-heading{
-  margin-top: 50px;
-}
-
-#process h3{
-  color: #424280;
-  font-weight: 400;
-  font-size: 1.4em;
-  text-align: center;
-}
-
-#process ul li{
-  margin-top: 20px;
-  color:  #424144;
-  font-weight: 300;
-  font-size: 1.25em;
-  padding-left:  50px;
-}
-
-#process p{
-  font-size: 1.75em;
-}
-
-.process-list-background{
-  padding:  30px 0 20px 0;
-}
-
-/****************** BFF PROJECT PAGE - TABLET - CHALLENGES SECTION ************/
-
-#challenges p {
-  font-size: 1.5em;
-  padding-bottom: 25px;
-  margin-bottom: 35px;
-  line-height: 1.6em;
-}
-
-/****************** BFF CASE STUDY PAGE - TABLET - RESULTS SECTION ************/
-
-#results .content-wrapper{
-  display:  flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-}
-
-.results-list{
-  display:  flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
-#results ul{
-  display:  flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  margin: 0 0 0px 50px;
-  padding: 0 0px 0 10px;
-  width: 75%;
-}
-
-#results ul li{
-  width: 100%;
-  font-weight: 200;
-  font-size: 1.5em;
-  padding-bottom: 20px;
-  
-}
-
-/*==========================================================================
-                      DESKTOP MEDIA QUERY
-===========================================================================*/
-
-
-@media only screen and (min-width: 1200px) {
-
-  /******************************* Desktop Base styles here *****************************/
-  h5 {
-    font-size: 3em;
-  }
+@media only screen and (min-width: 768px) {
+  /******************************* TABLET GENERAL STYLES*****************************/
 
   .content-wrapper {
-    max-width: 960px;
+    max-width: 700px;
   }
 
-  header {
-    justify-content: space-around;
-    padding:  35px 0;
-  }
+  /******************************** HOMEPAGE - TABLET - HERO - AREA************************************/
 
-  header .content-wrapper{
-    width:  100%;
-    justify-content:  space-between;
-  }
-
-  .logo{
-    font-size: .85em;
-    width: 40%;
-  }
-
-  header nav {
-    width:  50%;
-  }
-
-  header nav ul{
-    width:  100%;
-    display:  flex;
-    justify-content: space-between;
-    list-style-type: none;
-  }
-
-  nav ul li{
-    text-align: center;
-    margin-bottom: 0;
-  }
-
-  nav ul li a {
-    font-family: 'Lato', sans-serif;
-    font-size: .75em;
-    color: #424280;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-  }
-
-  nav ul li a span{
-      padding: 5px 10px;
-      border: solid #424280 2px;
-      width:130px;
-      text-align: center;
-  }
-
-  .header-divider{
-    display: none;
-  }
-
-  /******************************** HOMEPAGE - DESKTOP - HERO AREA ************************************/
   .hero-area {
-    background: url('../img/header-background-image.png');
+    background: url("../img/header-background-image.png");
+    background-position: 50% 30%;
     background-size: cover;
-    background-position: 20% 20%;
-    min-height: 700px;
-    justify-content: center;
-  }
-
-  .hero-area .content-wrapper {
-    margin-bottom: 0px;
+    min-height: 500px;
   }
 
   .hero-area h1 {
-    margin-top: 50px;
+    font-size: 2.5em;
+    line-height: 1.5em;
+    width: 52%;
     margin-right: 200px;
-    letter-spacing: 1.5px;
-    font-size: 3em;
-    width: 65%;
-    line-height: 1.6em;
+    letter-spacing: 2px;
+    padding-top: 25px;
   }
 
-  /******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/
+  /******************************** HOMEPAGE - TABLET - PORTFOLIO SECTION *******************************/
+
+  #portfolio {
+    min-height: 500px;
+    display: flex;
+  }
+
   #portfolio .content-wrapper {
-    width: 100%;
+    width: 70%;
   }
 
-  #portfolio h2 {
-    padding-bottom: 10px;
+  .portfolio-pieces {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: flex-start;
   }
 
   .portfolio-piece {
+    display: flex;
+
+    flex-flow: row wrap;
+    width: 45%;
+    margin: 30px 0;
+    text-align: left;
+  }
+
+  /******************************** HOMEPAGE - TABLET - PRAISE - SECTION*******************************/
+
+  #praise p {
+    line-height: 1.75em;
+  }
+
+  /****************** HOMEPAGE - TABLET - TOOLS SECTION ************/
+
+  #tools article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 20%;
+  }
+
+  #tools .bff-tool-description {
     width: 45%;
   }
 
-  .portfolio-description-sub-heading {
-    width: 100%;
+  #tools i {
+    margin-bottom: 25px;
   }
 
-  /*********************************** HOMEPAGE - DESKTOP - TOOLS SECTION *******************************/
-  #tools article {
-    flex-basis: 17%;
-  }
+  /******************************** HOMEPAGE - TABLET - ABOUT SECTION *******************************/
 
-  /************************************ HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
-  .about-sec-general {
+  #about .about-sec-general {
     display: flex;
-    justify-content: flex-start;
+    width: 100%;
+    flex-flow: row wrap;
   }
 
-  aside {
-    margin: 60px 20px 20px 0;
-    width: 30%;
+  #about h2 {
+    color: #424280;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   #about li {
     width: 90%;
     margin-left: 60px;
-    font-size: 1.25em;
   }
 
   #about .about-sec-intro {
@@ -1650,92 +1250,425 @@ margin-bottom: 25px;
     font-size: 2em;
   }
 
+  /******************************** HOMEPAGE - TABLET - FOOTER STYLES *******************************/
+
+  footer .content-wrapper {
+    width: 100%;
+  }
+
+  footer .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  footer h2 {
+    margin-bottom: 10px;
+  }
+
+  footer .contact,
+  .social,
+  .meet-me {
+    margin: 0;
+    width: 33%;
+  }
+
+  footer .social {
+    min-height: 153px;
+  }
+
+  footer .social-icons {
+    justify-content: center;
+    align-items: flex-end;
+    line-height: 0;
+    padding-top: 10px;
+  }
+
+  footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 0.5em;
+  }
+
+  footer p {
+    line-height: 1.285em;
+    margin: 0;
+  }
+
+  footer a {
+    margin: 0;
+  }
+
+  footer a i {
+    margin: 0px;
+  }
+
+  footer .copyright {
+    margin: 10px 0 0 0;
+  }
 
   /* ==========================================================================
-     BFF CASE STUDY Page - Desktop Styles
-     ========================================================================== */
+   BFF Project Page - Tablet Styles
+   ========================================================================== */
+
   #bff-header nav {
-    width: 35%;
+    width: 50%;
     font-size: 1.125em;
     font-weight: 700;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
   }
-
 
   #bff-header ul {
-    justify-content: space-around;
-  }
-
-  /****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
-  .bff-hero-area {
-    background: url('../img/bff-hero-image.png');
-    background-size: cover;
-    background-position: 30% 70%;
-    min-height: 700px;
-    justify-content: center;
-  }
-
-  .bff-hero-area .content-wrapper {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .bff-hero-area h1 {
-    line-height: 1.5;
-    margin-top: 0px;
-    margin-right: 0px;
-    padding: 0px;
-    letter-spacing: 1.5px;
     width: 100%;
-    font-weight: 800;
   }
 
-  /****************** BFF CASE STUDY PAGE - DESKTOP - OVERVIEW SECTION ************/
+  /****************** BFF PROJECT PAGE - TABLET - HERO SECTION ************/
+
+  .bff-hero-area {
+    background-position: 50% 30%;
+    background-size: cover;
+    min-height: 500px;
+  }
+
+  #bff .content-wrapper {
+    width: 100%;
+  }
+
+  #bff h1 {
+    font-size: 4em;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .down-arrow {
+    margin-top: 45px;
+  }
+
+  /****************** BFF PROJECT PAGE - TABLET - OVERVIEW SECTION ************/
+
   #overview p {
     line-height: 1.5em;
-    font-size: 1.75em;
+    font-size: 1.6em;
   }
 
-  /****************** BFF CASE STUDY PAGE - DESKTOP - PROJECT TOOLS SECTION ************/
+  /****************** BFF PROJECT PAGE - TABLET - PROJECT TOOLS SECTION ************/
+
   #bff-tools article {
-    flex-basis: 17%;
-  }
-
-  /****************** BFF CASE STUDY PAGE - DESKTOP - PROCESS SECTION ************/
-  .process-first-half-width, .process-sec-half-width {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 20%;
   }
 
-  .process-list-background {
-    padding: 40px 0 20px 0;
+  #bff-tools .bff-tool-description {
+    width: 45%;
+  }
+
+  #bff-tools i {
+    margin-bottom: 25px;
+  }
+  /****************** BFF PROJECT PAGE - TABLET - PROCESS SECTION ************/
+
+  #process aside {
+    margin: 60px 0 0 0;
+    width: 100%;
+    min-height: 600px;
+  }
+
+  .process-heading {
+    margin-top: 50px;
+  }
+
+  #process h3 {
+    color: #424280;
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: center;
   }
 
   #process ul li {
-    margin-top: 10px;
-    margin-bottom: 5px;
-    padding: 0 0 0 20px;
+    margin-top: 20px;
+    color: #424144;
     font-weight: 300;
     font-size: 1.25em;
+    padding-left: 50px;
   }
-}
 
+  #process p {
+    font-size: 1.75em;
+  }
 
-/****************** BFF CASE STUDY PAGE - DESKTOP RESULTS SECTION ************/
+  .process-list-background {
+    padding: 30px 0 20px 0;
+  }
 
+  /****************** BFF PROJECT PAGE - TABLET - CHALLENGES SECTION ************/
 
-/*
+  #challenges p {
+    font-size: 1.5em;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    line-height: 1.6em;
+  }
+
+  /****************** BFF CASE STUDY PAGE - TABLET - RESULTS SECTION ************/
+
+  #results .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .results-list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #results ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0px 50px;
+    padding: 0 0px 0 10px;
+    width: 75%;
+  }
+
+  #results ul li {
+    width: 100%;
+    font-weight: 200;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+  }
+
+  /*==========================================================================
+                      DESKTOP MEDIA QUERY
+===========================================================================*/
+
+  @media only screen and (min-width: 1200px) {
+    /******************************* Desktop Base styles here *****************************/
+    h5 {
+      font-size: 3em;
+    }
+
+    .content-wrapper {
+      max-width: 960px;
+    }
+
+    header {
+      justify-content: space-around;
+      padding: 35px 0;
+    }
+
+    header .content-wrapper {
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 0.85em;
+      width: 40%;
+    }
+
+    header nav {
+      width: 50%;
+    }
+
+    header nav ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+    }
+
+    nav ul li {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    nav ul li a {
+      font-family: "Lato", sans-serif;
+      font-size: 0.75em;
+      color: #424280;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+    }
+
+    nav ul li a span {
+      padding: 5px 10px;
+      border: solid #424280 2px;
+      width: 130px;
+      text-align: center;
+    }
+
+    .header-divider {
+      display: none;
+    }
+
+    /******************************** HOMEPAGE - DESKTOP - HERO AREA ************************************/
+    .hero-area {
+      background: url("../img/header-background-image.png");
+      background-size: cover;
+      background-position: 20% 20%;
+      min-height: 700px;
+      justify-content: center;
+    }
+
+    .hero-area .content-wrapper {
+      margin-bottom: 0px;
+    }
+
+    .hero-area h1 {
+      margin-top: 50px;
+      margin-right: 200px;
+      letter-spacing: 1.5px;
+      font-size: 3em;
+      width: 65%;
+      line-height: 1.6em;
+    }
+
+    /******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/
+    #portfolio .content-wrapper {
+      width: 100%;
+    }
+
+    #portfolio h2 {
+      padding-bottom: 10px;
+    }
+
+    .portfolio-piece {
+      width: 45%;
+    }
+
+    .portfolio-description-sub-heading {
+      width: 100%;
+    }
+
+    /*********************************** HOMEPAGE - DESKTOP - TOOLS SECTION *******************************/
+    #tools article {
+      flex-basis: 17%;
+    }
+
+    /************************************ HOMEPAGE - DESKTOP - ABOUT SECTION *******************************/
+    .about-sec-general {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    aside {
+      margin: 60px 20px 20px 0;
+      width: 30%;
+    }
+
+    #about li {
+      width: 90%;
+      margin-left: 60px;
+      font-size: 1.25em;
+    }
+
+    #about .about-sec-intro {
+      width: 100%;
+      font-weight: 200;
+      font-size: 2em;
+    }
+
+    /* ==========================================================================
+     BFF CASE STUDY Page - Desktop Styles
+     ========================================================================== */
+    #bff-header nav {
+      width: 35%;
+      font-size: 1.125em;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    #bff-header ul {
+      justify-content: space-around;
+    }
+
+    /****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
+    .bff-hero-area {
+      background: url("../img/bff-hero-image.png");
+      background-size: cover;
+      background-position: 30% 70%;
+      min-height: 700px;
+      justify-content: center;
+    }
+
+    .bff-hero-area .content-wrapper {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .bff-hero-area h1 {
+      line-height: 1.5;
+      margin-top: 0px;
+      margin-right: 0px;
+      padding: 0px;
+      letter-spacing: 1.5px;
+      width: 100%;
+      font-weight: 800;
+    }
+
+    /****************** BFF CASE STUDY PAGE - DESKTOP - OVERVIEW SECTION ************/
+    #overview p {
+      line-height: 1.5em;
+      font-size: 1.75em;
+    }
+
+    /****************** BFF CASE STUDY PAGE - DESKTOP - PROJECT TOOLS SECTION ************/
+    #bff-tools article {
+      flex-basis: 17%;
+    }
+
+    /****************** BFF CASE STUDY PAGE - DESKTOP - PROCESS SECTION ************/
+    .process-first-half-width,
+    .process-sec-half-width {
+      display: flex;
+      justify-content: center;
+    }
+
+    .process-list-background {
+      padding: 40px 0 20px 0;
+    }
+
+    #process ul li {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      padding: 0 0 0 20px;
+      font-weight: 300;
+      font-size: 1.25em;
+    }
+  }
+
+  /****************** BFF CASE STUDY PAGE - DESKTOP RESULTS SECTION ************/
+
+  /*
  * Hide visually and from screen readers
  */
 
-.hidden,
-[hidden] {
-  display: none !important;
-}
+  .hidden,
+  [hidden] {
+    display: none !important;
+  }
 
-/*
+  /*
  * Hide only visually, but have it available for screen readers:
  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  *
@@ -1744,45 +1677,45 @@ margin-bottom: 25px;
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
+  .sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
+  }
 
-/*
+  /*
  * Extends the .sr-only class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
+  .sr-only.focusable:active,
+  .sr-only.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
+  }
 
-/*
+  /*
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
-  visibility: hidden;
-}
+  .invisible {
+    visibility: hidden;
+  }
 
-/*
+  /*
  * Clearfix: contain floats
  *
  * For modern browsers
@@ -1794,105 +1727,105 @@ margin-bottom: 25px;
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
-}
+  .clearfix::before,
+  .clearfix::after {
+    content: " ";
+    display: table;
+  }
 
-.clearfix::after {
-  clear: both;
-}
+  .clearfix::after {
+    clear: both;
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+  @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+  }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+  @media print,
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+  @media print {
+    *,
+    *::before,
+    *::after {
+      background: #fff !important;
+      color: #000 !important;
+      /* Black prints faster */
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+    a,
+    a:visited {
+      text-decoration: underline;
+    }
 
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
+    a[href]::after {
+      content: " (" attr(href) ")";
+    }
 
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
+    abbr[title]::after {
+      content: " (" attr(title) ")";
+    }
 
-  /*
+    /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+      content: "";
+    }
 
-  pre {
-    white-space: pre-wrap !important;
-  }
+    pre {
+      white-space: pre-wrap !important;
+    }
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+    pre,
+    blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+    }
 
-  /*
+    /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  thead {
-    display: table-header-group;
-  }
+    thead {
+      display: table-header-group;
+    }
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
+    tr,
+    img {
+      page-break-inside: avoid;
+    }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+    p,
+    h2,
+    h3 {
+      orphans: 3;
+      widows: 3;
+    }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
+    h2,
+    h3 {
+      page-break-after: avoid;
+    }
   }
-}}
-
+}
