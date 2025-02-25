@@ -230,8 +230,8 @@ header h2 {
 
 .header-divider {
   background: #8c8cab;
-  height: 0.25px;
-  width: 90%;
+  height: 0.25em;
+  width: 80%;
   margin: 10px 0 20px 0;
 }
 
@@ -270,31 +270,6 @@ nav ul li a:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 0.5em;
-}
-
-nav ul li:last-child a {
-  display: inline-block;
-  padding: 0.5em 1em;
-  border: 2px solid #424280;
-  border-radius: 0.25em;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-nav ul li:last-child a:hover {
-  text-decoration: none;
-  background-color: #424280;
-  color: white;
-  border-color: #424280;
-}
-
-nav ul li:last-child a span {
-  display: block;
-  padding: 0;
-}
-
-nav ul li:nth-last-child(2) {
-  margin-right: 0.5em;
 }
 
 /****** BASE FOOTER STYLES ******/
@@ -1542,12 +1517,30 @@ footer .copyright {
       letter-spacing: 2px;
     }
 
-    /* nav ul li a span {
-      padding: 5px 10px;
-      border: solid #424280 2px;
-      width: 130px;
-      text-align: center;
-    } */
+    nav ul li:last-child a {
+      display: inline-block;
+      padding: 0.5em 1em;
+      border: 2px solid #424280;
+      border-radius: 0.25em;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li:last-child a:hover {
+      text-decoration: none;
+      background-color: #424280;
+      color: white;
+      border-color: #424280;
+    }
+
+    nav ul li:last-child a span {
+      display: block;
+      padding: 0;
+    }
+
+    nav ul li:nth-last-child(2) {
+      margin-right: 0.5em;
+    }
 
     .header-divider {
       display: none;
@@ -1634,6 +1627,22 @@ footer .copyright {
 
     #bff-header ul {
       justify-content: space-around;
+    }
+
+    nav ul li a#bff-project-home-link {
+      display: inline-block;
+      text-decoration: none;
+      background: none;
+      border: none;
+      color: #424280;
+      transition: all 0.3s ease;
+    }
+
+    nav ul li a#bff-project-home-link:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 0.15em;
+      text-underline-offset: 0.5em;
+      color: #424280;
     }
 
     /****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
