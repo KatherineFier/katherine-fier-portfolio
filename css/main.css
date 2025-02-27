@@ -359,8 +359,9 @@ footer .copyright {
 
 .hero-area .content-wrapper {
   margin-bottom: 0px;
+  width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
 }
 
 .hero-area h1 {
@@ -815,8 +816,6 @@ footer .copyright {
 
 /******************** BFF CASE STUDY PAGE - MOBILE - HERO AREA *******************/
 
-/************************  HOMEPAGE - MOBILE - HERO AREA *****************/
-
 .bff-hero-area {
   background: url("../img/bff-hero-image.png");
   background-size: cover;
@@ -1218,20 +1217,21 @@ footer .copyright {
 
   /******************************** HOMEPAGE - TABLET - HERO - AREA************************************/
 
-  .hero-area {
+  /* .hero-area {
     background: url("../img/header-background-image.png");
     background-position: 50% 30%;
     background-size: cover;
-    min-height: 500px;
+    min-height: 500px; */
   }
 
   .hero-area h1 {
     font-size: 2.5em;
     line-height: 1.5em;
-    width: 52%;
-    margin-right: 200px;
+    width: 100%;
+    margin-right: 0 auto;
     letter-spacing: 2px;
     padding-top: 25px;
+    text-align: center;
   }
 
   /******************************** HOMEPAGE - TABLET - PORTFOLIO SECTION *******************************/
@@ -1598,25 +1598,30 @@ footer .copyright {
     }
 
     /******************************** HOMEPAGE - DESKTOP - HERO AREA ************************************/
-    .hero-area {
+    /* .hero-area {
       background: url("../img/header-background-image.png");
       background-size: cover;
       background-position: 20% 20%;
       min-height: 700px;
       justify-content: center;
-    }
+    } */
 
     .hero-area .content-wrapper {
       margin-bottom: 0px;
     }
 
     .hero-area h1 {
-      margin-top: 50px;
-      margin-right: 200px;
-      letter-spacing: 1.5px;
+      width: 100%;
+      text-align: left;
+      margin: 0 5em 0 5em;
       font-size: 3em;
-      width: 65%;
-      line-height: 1.6em;
+      line-height: 1.5em;
+    }
+
+
+    .header-underline {
+      display: inline-block;
+      margin-bottom: .5em;
     }
 
     /******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/
