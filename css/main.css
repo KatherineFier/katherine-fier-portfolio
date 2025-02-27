@@ -347,11 +347,11 @@ footer .copyright {
 /************************  HOMEPAGE - MOBILE - HERO AREA *****************/
 
 .hero-area {
-  background-color: #cdd1dc;
+  background: url("../img/linked-in-background-photo-from-hautestock-lrg.jpg");
   background-size: cover;
-  background-position: 55% 50%;
+  background-position: 60% 80%;
   background-repeat: no-repeat;
-  min-height: 600px;
+  min-height: 700px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -364,12 +364,37 @@ footer .copyright {
   /* flex-flow: row wrap; */
 }
 
+.hero-text{
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+}
+
 .hero-area h1 {
-  line-height: 1.5em;
-  width: 100%;
-  padding-top: 20px;
-  letter-spacing: 1.5px;
+  width: 80%;
+  text-align: center;
+  margin: 10px 0 0 0;
   font-size: 3em;
+  line-height: 1.25em;
+  letter-spacing: 1.5px;
+}
+
+
+/* Style for text */
+.hero-text {
+  max-width: 600px; /* Adjust width as needed */
+}
+
+/* Style for image */
+.hero-image {
+  margin-top: 20px; /* Adds space on mobile */
+}
+
+.hero-image img {
+  width: 150px; /* Adjust size as needed */
+  height: 150px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fills the circle */
 }
 
 /******************** HOMEPAGE - MOBILE - ACCOMPLISHMENTS SECTION *********************/
@@ -1217,22 +1242,29 @@ footer .copyright {
 
   /******************************** HOMEPAGE - TABLET - HERO - AREA************************************/
 
-  /* .hero-area {
-    background: url("../img/header-background-image.png");
-    background-position: 50% 30%;
+  .hero-area {
+    background: url("../img/linked-in-background-photo-from-hautestock-lrg.jpg");
     background-size: cover;
-    min-height: 500px; */
+    background-position: 60% 80%;
+    min-height: 700px;
+    justify-content: center;
+  }
+
+
+  .hero-text{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
   }
 
   .hero-area h1 {
-    font-size: 2.5em;
-    line-height: 1.5em;
-    width: 100%;
-    margin-right: 0 auto;
-    letter-spacing: 2px;
-    padding-top: 25px;
+    width: 80%;
     text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 3em;
+    line-height: 1.5em;
   }
+
 
   /******************************** HOMEPAGE - TABLET - PORTFOLIO SECTION *******************************/
 
@@ -1598,31 +1630,33 @@ footer .copyright {
     }
 
     /******************************** HOMEPAGE - DESKTOP - HERO AREA ************************************/
-    /* .hero-area {
-      background: url("../img/header-background-image.png");
+    .hero-area {
+      background: url("../img/linked-in-background-photo-from-hautestock-lrg.jpg");
       background-size: cover;
       background-position: 20% 20%;
       min-height: 700px;
-      justify-content: center;
-    } */
+    justify-content: center;
+    }
 
     .hero-area .content-wrapper {
       margin-bottom: 0px;
     }
 
     .hero-area h1 {
-      width: 100%;
-      text-align: center;
-      margin: 0 5em 0 5em;
+      width: 80%;
+      text-align: left;
       font-size: 3em;
       line-height: 1.5em;
+      margin-top: 1em;
     }
 
 
     .header-underline {
       display: inline-block;
-      margin-bottom: .5em;
+      margin-bottom: none;
     }
+
+}
 
     /******************************** HOMEPAGE - DESKTOP - PORTFOLIO SECTION *******************************/
     #portfolio .content-wrapper {
