@@ -111,7 +111,7 @@ ol {
 }
 
 a {
-  color: #bf9ded;
+  color: #76A9c6;
   font-weight: 400;
   text-decoration: none;
 }
@@ -165,7 +165,7 @@ h4 {
 h5 {
   font-family: "Adamina", serif;
   font-weight: 500;
-  color: #424280;
+  color: #2f4654;
   margin: 0;
   font-size: 2.25em;
   letter-spacing: 2px;
@@ -229,7 +229,7 @@ header h2 {
 }
 
 .header-divider {
-  background: #8c8cab;
+  background: #2F4654;
   height: 0.25em;
   width: 80%;
   margin: 10px 0 20px 0;
@@ -258,7 +258,7 @@ nav ul li a {
   padding: 8px 12px;
   font-family: "Lato", sans-serif;
   font-size: 0.7em;
-  color: #424280;
+  color: #2F4654;
   font-weight: 600;
   text-transform: uppercase;
   text-decoration: none;
@@ -295,7 +295,7 @@ footer p {
 
 footer .contact a {
   margin: 0;
-  color: #bf9ded;
+  color: #76A9c6;
   font-weight: 400;
   font-size: 0.85em;
 }
@@ -414,7 +414,7 @@ footer .copyright {
 
 #accomplishments h2 {
   text-align: center;
-  color: #424280;
+  color: #2f4654;
 }
 
 .accomplishments-list {
@@ -489,7 +489,7 @@ footer .copyright {
   margin: 0;
 }
 .portfolio-piece-genre {
-  background-color: hsla(265, 76%, 77%, 0.33);
+  background-color: #dde9f3;
   color: #67666b;
   padding: 5px 10px;
   border-radius: 0.25em;
@@ -510,12 +510,16 @@ footer .copyright {
 
 #portfolio h2 {
   text-align: center;
-  color: #424144;
+  color: #2f4654;
 }
 
 #portfolio h3 {
   margin-bottom: 10px;
   width: 100%;
+}
+
+.portfolio-title {
+  color: #2f4654;
 }
 
 .portfolio-description-sub-heading {
@@ -565,7 +569,7 @@ footer .copyright {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color: #f2ebfb;
+  background-color: #dde9f3;
   min-height: 350px;
   padding-bottom: 30px;
 }
@@ -576,7 +580,7 @@ footer .copyright {
 
 #tools h2 {
   text-align: center;
-  color: #424280;
+  color: #2f4654;
   padding: 20px 0 20px 0;
 }
 
@@ -614,7 +618,7 @@ footer .copyright {
 }
 
 #tools a {
-  background-color: #424280;
+  background-color: #2f4654;
   padding: 20px 50px 20px 50px;
   text-align: center;
   color: #ffffff;
@@ -665,7 +669,7 @@ footer .copyright {
 }
 
 .case-study-sec-button a {
-  background-color: #8d8dc9;
+  background-color: #8aafd0;
   padding: 20px 50px 20px 50px;
   text-align: center;
   color: #ffffff;
@@ -691,7 +695,7 @@ footer .copyright {
 }
 
 #about h2 {
-  color: #424280;
+  color: #2f4654;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -769,7 +773,7 @@ footer .copyright {
 
 #offerings h2 {
   width: 80%;
-  color: #bf9ded;
+  color: #76A9c6;
   text-align: center;
   margin-bottom: 50px;
   font-family: Lato, sans-serif;
@@ -802,12 +806,12 @@ footer .copyright {
   background-color: #ffffff;
   border-width: 2.5px;
   border-style: solid;
-  border-color: #8d8dc9;
+  border-color: #8aafd0;
   text-align: center;
 }
 
 #offerings h3 {
-  color: #424280;
+  color: #2f4654;
   padding: 30px 0 10px 0;
   font-weight: 400;
   font-size: 1.25em;
@@ -955,7 +959,7 @@ footer .copyright {
 }
 
 .process-list-background {
-  background-color: #f2ebfb;
+  background-color: #dde9f3;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -965,7 +969,7 @@ footer .copyright {
 
 .process-list {
   width: 75%;
-  background-color: #f2ebfb;
+  background-color: #dde9f3;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -980,7 +984,7 @@ footer .copyright {
   background-color: #ffffff;
   border-width: 2px;
   border-style: solid;
-  border-color: #8d8dc9;
+  border-color: #8aafd0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -1041,7 +1045,7 @@ footer .copyright {
 }
 
 #process a {
-  background-color: #424280;
+  background-color: #2f4654;
   padding: 20px 50px 20px 50px;
   text-align: center;
   color: #ffffff;
@@ -1058,7 +1062,7 @@ footer .copyright {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color: #f2ebfb;
+  background-color: #dde9f3;
   min-height: 350px;
   padding-bottom: 30px;
 }
@@ -1107,7 +1111,7 @@ footer .copyright {
 }
 
 #bff-tools a {
-  background-color: #424280;
+  background-color: #2f4654;
   padding: 20px 50px 20px 50px;
   text-align: center;
   color: #ffffff;
@@ -1124,7 +1128,7 @@ footer .copyright {
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
-  background-color: #f2ebfb;
+  background-color: #dde9f3;
   min-height: 350px;
   padding-bottom: 30px;
 }
@@ -1224,7 +1228,7 @@ footer .copyright {
 }
 
 #results a {
-  background-color: #424280;
+  background-color: #2f4654;
   padding: 20px 50px 20px 50px;
   text-align: center;
   color: #ffffff;
@@ -1341,7 +1345,7 @@ footer .copyright {
   }
 
   #about h2 {
-    color: #424280;
+    color: #2f4654;
     text-align: center;
     margin-bottom: 10px;
   }
@@ -1631,7 +1635,7 @@ footer .copyright {
     nav ul li a {
       font-family: "Lato", sans-serif;
       font-size: 0.75em;
-      color: #424280;
+      color: #2f4654;
       font-weight: 600;
       text-transform: uppercase;
       text-decoration: none;
@@ -1641,7 +1645,7 @@ footer .copyright {
     nav ul li:last-child a {
       display: inline-block;
       padding: 0.5em 1em;
-      border: 2px solid #424280;
+      border: 2px solid #2f4654;
       border-radius: 0.25em;
       text-decoration: none;
       transition: all 0.3s ease;
@@ -1649,9 +1653,9 @@ footer .copyright {
 
     nav ul li:last-child a:hover {
       text-decoration: none;
-      background-color: #424280;
+      background-color: #2f4654;
       color: white;
-      border-color: #424280;
+      border-color: #2f4654;
     }
 
     nav ul li:last-child a span {
@@ -1762,7 +1766,7 @@ footer .copyright {
       text-decoration: none;
       background: none;
       border: none;
-      color: #424280;
+      color: #2f4654;
       transition: all 0.3s ease;
     }
 
@@ -1770,7 +1774,7 @@ footer .copyright {
       text-decoration: underline;
       text-decoration-thickness: 0.15em;
       text-underline-offset: 0.5em;
-      color: #424280;
+      color: #2f4654;
     }
 
     /****************** BFF CASE STUDY PAGE - DESKTOP - HERO SECTION ************/
