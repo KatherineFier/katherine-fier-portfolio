@@ -268,7 +268,7 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
-  text-decoration-thickness: 0.15em;
+  text-decoration-thickness: 2px;
   text-underline-offset: 0.5em;
 }
 
@@ -295,7 +295,7 @@ footer p {
 
 footer .contact a {
   margin: 0;
-  color: #76A9c6;
+  color: #1f5a4f;
   font-weight: 400;
   font-size: 0.85em;
 }
@@ -669,7 +669,7 @@ footer .copyright {
 }
 
 .case-study-sec-button a {
-  background-color: #8aafd0;
+  background-color: #5ec58b;
   padding: 20px 50px 20px 50px;
   text-align: center;
   color: #ffffff;
@@ -904,7 +904,7 @@ footer .copyright {
 
 #overview h2 {
   text-align: center;
-  color: #424280;
+  color: #2f4654;
   padding-bottom: 10px;
 }
 
@@ -940,7 +940,7 @@ footer .copyright {
 }
 
 #process h2 {
-  color: #424280;
+  color: #2f4654;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -1003,7 +1003,7 @@ footer .copyright {
 }
 
 #process h3 {
-  color: #424280;
+  color: #2f4654;
   text-align: center;
   font-weight: 400;
   font-size: 1.25em;
@@ -1073,7 +1073,7 @@ footer .copyright {
 
 #bff-tools h2 {
   text-align: center;
-  color: #424280;
+  color: #2f4654;
   padding: 20px 0 20px 0;
 }
 
@@ -1139,7 +1139,7 @@ footer .copyright {
 
 #challenges h2 {
   text-align: center;
-  color: #424280;
+  color: #2f4654;
   padding: 20px 0 20px 0;
 }
 
@@ -1172,7 +1172,7 @@ footer .copyright {
 }
 
 #results h2 {
-  color: #424280;
+  color: #2f4654;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -1521,7 +1521,7 @@ footer .copyright {
   }
 
   #process h3 {
-    color: #424280;
+    color: #2f4654;
     font-weight: 400;
     font-size: 1.4em;
     text-align: center;
@@ -1772,7 +1772,7 @@ footer .copyright {
 
     nav ul li a#bff-project-home-link:hover {
       text-decoration: underline;
-      text-decoration-thickness: 0.15em;
+      text-decoration-thickness: 2px;
       text-underline-offset: 0.5em;
       color: #2f4654;
     }
