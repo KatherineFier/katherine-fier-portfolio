@@ -374,9 +374,9 @@ footer .copyright {
   width: 80%;
   text-align: center;
   margin: 10px 0 0 0;
-  font-size: 3em;
-  line-height: 1.25em;
-  letter-spacing: 1.5px;
+  font-size: 1.85em;
+  line-height: 1.4em;
+  letter-spacing: 1px;
 }
 
 
@@ -1280,8 +1280,8 @@ footer .copyright {
     width: 80%;
     text-align: center;
     margin: 10px 0 0 0;
-    font-size: 3em;
-    line-height: 1.5em;
+    font-size: 2.25em;
+    line-height: 1.3em;
   }
 
 
@@ -1682,19 +1682,23 @@ footer .copyright {
 
     .hero-area .content-wrapper {
       margin-bottom: 0px;
+      justify-content: center;
+    }
+
+    .hero-text {
+      max-width: 1000px;
     }
 
     .hero-area h1 {
-      width: 80%;
+      width: 100%;
       text-align: left;
       font-size: 3em;
       line-height: 1.5em;
-      margin-top: 1em;
+      margin-top: 0.75em;
     }
 
 
     .header-underline {
-      display: inline-block;
       margin-bottom: none;
     }
 
